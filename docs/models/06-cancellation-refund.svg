@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4640" height="1270" viewBox="0 0 4640 1270" role="img" aria-label="Отмена бронирования и запрос на возврат" font-family="Segoe UI, Arial, sans-serif"><title>Отмена бронирования и запрос на возврат</title><defs><marker id="seq" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5.5 L0,11 Z" fill="#324D63" stroke="#324D63" stroke-width="1.4"/></marker><marker id="message" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#596985" stroke-width="1.4"/></marker><marker id="access" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#20746B" stroke-width="1.4"/></marker></defs><rect width="4640" height="1270" fill="#FFFFFF"/>
+<rect id="p04_main" x="30" y="130" width="4580" height="890" fill="#FFFFFF" stroke="#234E75" stroke-width="2" />
+<rect id="p04_lane" x="32" y="132" width="4576" height="213" fill="#F7FAFD" stroke="none" stroke-width="2" />
+<line x1="32" y1="345" x2="4608" y2="345" stroke="#234E75" stroke-width="2"/>
+<line x1="120" y1="132" x2="120" y2="1020" stroke="#234E75" stroke-width="2"/>
+<text x="35" y="53" text-anchor="start" fill="#182C40" font-size="32" font-weight="700">P04 · Отмена бронирования и запрос на возврат</text>
+<text x="36" y="95" text-anchor="start" fill="#182C40" font-size="20" font-weight="400">Запуск — запрос отмены. Начальный вход — контекст аккаунта и идентификатор бронирования.</text>
+<text x="76" y="164" text-anchor="middle" fill="#182C40" font-size="14" font-weight="400">Владелец</text>
+<text x="76" y="184" text-anchor="middle" fill="#182C40" font-size="14" font-weight="400">аккаунта</text>
+<text x="76" y="385" text-anchor="middle" fill="#182C40" font-size="13" font-weight="400">Приложение</text>
+<polyline id="p04_s1" data-kind="seq" points="191,220 348.5,220" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p04_s2" data-kind="seq" points="591.5,220 630,220 630,500 668.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p04_s3" data-kind="seq" points="911.5,500 1072.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p04_s4" data-kind="seq" points="1110,537.5 1110,829" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1123" y="688.25" text-anchor="start" fill="#324D63" font-size="15" font-weight="600">Нет</text>
+<polyline id="p04_s5" data-kind="seq" points="1147.5,500 1298.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1223" y="491" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Да</text>
+<polyline id="p04_s6" data-kind="seq" points="1541.5,500 1627,500 1627,220 1712.5,220" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p04_s7" data-kind="seq" points="1787.5,220 2059,220" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1923.25" y="211" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Нет</text>
+<polyline id="p04_s8" data-kind="seq" points="1750,257.5 1750,500 1958.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1750" y="369.75" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Да</text>
+<polyline id="p04_s9" data-kind="seq" points="2201.5,500 2372.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p04_s10" data-kind="seq" points="2410,537.5 2410,829" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2423" y="688.25" text-anchor="start" fill="#324D63" font-size="15" font-weight="600">Нет</text>
+<polyline id="p04_s11" data-kind="seq" points="2447.5,500 2598.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2523" y="491" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Да</text>
+<polyline id="p04_s12" data-kind="seq" points="2841.5,500 2948.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p04_s13" data-kind="seq" points="3191.5,500 3288.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p04_s14" data-kind="seq" points="3531.5,500 3749,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p04_access_check" data-kind="access" points="790,594.5 790,536" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="803" y="570.25" text-anchor="start" fill="#20746B" font-size="15" font-weight="600">Чтение</text>
+<polyline id="p04_access_cancel" data-kind="access" points="1420,536 1420,594.5" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-start="url(#access)" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1433" y="570.25" text-anchor="start" fill="#20746B" font-size="15" font-weight="600">Чтение и запись</text>
+<polyline id="p04_access_eligible" data-kind="access" points="2080,594.5 2080,536" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2093" y="570.25" text-anchor="start" fill="#20746B" font-size="15" font-weight="600">Чтение</text>
+<polyline id="p04_access_send" data-kind="access" points="2720,536 2720,560.75 2625,560.75 2625,585.5" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-start="url(#access)" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2720" y="539.375" text-anchor="middle" fill="#20746B" font-size="15" font-weight="600">Чтение и запись</text>
+<polyline id="p04_access_read" data-kind="access" points="3115,590.5 3115,563.25 3070,563.25 3070,536" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3115" y="567.875" text-anchor="middle" fill="#20746B" font-size="15" font-weight="600">Чтение</text>
+<polyline id="p04_access_save" data-kind="access" points="3410,536 3410,594.5" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-start="url(#access)" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3423" y="570.25" text-anchor="start" fill="#20746B" font-size="15" font-weight="600">Чтение и запись</text>
+<polyline id="p04_m1" data-kind="message" points="2808,536 2808,1017 2795,1017 2795,1088" fill="none" stroke="#596985" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#message)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2787" y="1068" text-anchor="end" fill="#596985" font-size="15" font-weight="600">Запрос на возврат</text>
+<polyline id="p04_m2" data-kind="message" points="3005,1088 3005,1017 2982,1017 2982,536" fill="none" stroke="#596985" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#message)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3013" y="1068" text-anchor="start" fill="#596985" font-size="15" font-weight="600">Состояние и итог</text>
+<ellipse id="p04_start" cx="170" cy="220" rx="21" ry="21" fill="#FFFFFF" stroke="#234E75" stroke-width="2"/>
+<text x="170" y="262" text-anchor="middle" fill="#234E75" font-size="16" font-weight="650">Начало</text>
+<rect id="p04_request" x="348.5" y="184" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="470" y="215.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Выбрать бронь и</text>
+<text x="470" y="236.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">подтвердить отмену</text>
+<rect id="p04_check" x="668.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="790" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Проверить условия и</text>
+<text x="790" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">завершённость платежей</text>
+<polygon id="p04_ok" points="1110,462.5 1147.5,500 1110,537.5 1072.5,500" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="1110" y="510" text-anchor="middle" fill="#563C12" font-size="30" font-weight="600">×</text>
+<text x="1110" y="448.5" text-anchor="middle" fill="#563C12" font-size="16" font-weight="650">Отмена допустима?</text>
+<ellipse id="p04_deny" cx="1110" cy="850" rx="21" ry="21" fill="#FFFFFF" stroke="#9A3537" stroke-width="4"/>
+<text x="1110" y="892" text-anchor="middle" fill="#9A3537" font-size="16" font-weight="650">Отмена отклонена</text>
+<rect id="p04_cancel" x="1298.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1420" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Зафиксировать отмену и</text>
+<text x="1420" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">освободить места</text>
+<polygon id="p04_want" points="1750,182.5 1787.5,220 1750,257.5 1712.5,220" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="1750" y="230" text-anchor="middle" fill="#563C12" font-size="30" font-weight="600">×</text>
+<text x="1750" y="168.5" text-anchor="middle" fill="#563C12" font-size="16" font-weight="650">Запрошен возврат?</text>
+<ellipse id="p04_only" cx="2080" cy="220" rx="21" ry="21" fill="#FFFFFF" stroke="#14644D" stroke-width="4"/>
+<text x="2080" y="262" text-anchor="middle" fill="#14644D" font-size="16" font-weight="650">Бронь отменена</text>
+<rect id="p04_eligible" x="1958.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2080" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Проверить допустимость</text>
+<text x="2080" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">возврата</text>
+<polygon id="p04_can" points="2410,462.5 2447.5,500 2410,537.5 2372.5,500" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="2410" y="510" text-anchor="middle" fill="#563C12" font-size="30" font-weight="600">×</text>
+<text x="2410" y="448.5" text-anchor="middle" fill="#563C12" font-size="16" font-weight="650">Возврат допустим?</text>
+<ellipse id="p04_norefund" cx="2410" cy="850" rx="21" ry="21" fill="#FFFFFF" stroke="#9A3537" stroke-width="4"/>
+<text x="2410" y="892" text-anchor="middle" fill="#9A3537" font-size="16" font-weight="650">Возврат недоступен</text>
+<rect id="p04_send" x="2598.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2720" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Зарегистрировать и</text>
+<text x="2720" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">направить запрос</text>
+<rect id="p04_read" x="2948.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="3070" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Сопоставить состояние</text>
+<text x="3070" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">или итог запроса</text>
+<rect id="p04_save" x="3288.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="3410" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Сохранить и показать</text>
+<text x="3410" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">состояние запроса</text>
+<ellipse id="p04_done" cx="3770" cy="500" rx="21" ry="21" fill="#FFFFFF" stroke="#14644D" stroke-width="4"/>
+<text x="3770" y="542" text-anchor="middle" fill="#14644D" font-size="16" font-weight="650">Состояние отображено</text>
+<rect id="p04_psp" x="2675" y="1088" width="450" height="64" fill="#F0F0F7" stroke="#596985" stroke-width="2" />
+<text x="2900" y="1126.3333333333333" text-anchor="middle" fill="#334361" font-size="19" font-weight="600">Внешний платёжный сервис</text>
+<path id="p04_src_check" d="M655,603.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M655,603.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="790" y="626" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Бронирования, условия и</text>
+<text x="790" y="644" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">платёжные попытки</text>
+<path id="p04_src_cancel" d="M1285,603.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M1285,603.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="1420" y="626" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Бронирования и</text>
+<text x="1420" y="644" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">закрепления</text>
+<path id="p04_src_eligible" d="M1945,603.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M1945,603.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="2080" y="626" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Бронирования, условия и</text>
+<text x="2080" y="644" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">подтверждённая оплата</text>
+<path id="p04_src_send" d="M2490,594.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M2490,594.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="2625" y="617" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Запросы на возврат и</text>
+<text x="2625" y="635" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">платёжные попытки</text>
+<path id="p04_src_read" d="M2990,599.5 a125,9 0 0 1 250,0 v45 a125,9 0 0 1 -250,0 Z M2990,599.5 a125,9 0 0 0 250,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="3115" y="622" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Запросы на возврат и</text>
+<text x="3115" y="640" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">платёжные попытки</text>
+<path id="p04_src_save" d="M3275,603.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M3275,603.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="3410" y="635" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Запросы на возврат</text>
+<text x="36" y="1231" text-anchor="start" fill="#182C40" font-size="18" font-weight="400">Сплошная стрелка — ход процесса. Штриховая — сообщение внешнему участнику. Точечная — чтение или запись. Повтор подписи хранилища обозначает ту же логическую группу данных.</text>
+</svg>

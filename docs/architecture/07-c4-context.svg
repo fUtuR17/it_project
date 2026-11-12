@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="1120" viewBox="0 0 2800 1120" role="img" aria-label="C4 · Уровень 1. Контекст системы" font-family="Segoe UI, Arial, sans-serif"><title>C4 · Уровень 1. Контекст системы</title><defs><marker id="seq" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5.5 L0,11 Z" fill="#324D63" stroke="#324D63" stroke-width="1.4"/></marker><marker id="message" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#596985" stroke-width="1.4"/></marker><marker id="access" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#20746B" stroke-width="1.4"/></marker></defs><rect width="2800" height="1120" fill="#FFFFFF"/>
+<text x="45" y="59" text-anchor="start" fill="#182C40" font-size="36" font-weight="700">C4 · Уровень 1. Контекст системы</text>
+<text x="45" y="105" text-anchor="start" fill="#182C40" font-size="22" font-weight="400">Границы системы бронирования и ответственность внешних сервисов</text>
+<polyline id="c4_1_owner_system" data-kind="seq" points="592.5,515 1045,515" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="818.75" y="506" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Бронирует и обслуживает поездку</text>
+<polyline id="c4_1_registration" data-kind="seq" points="1595,515 2082.5,240" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1838.75" y="368.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Запрашивает регистрацию</text>
+<polyline id="c4_1_document" data-kind="seq" points="1595,515 2082.5,440" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1838.75" y="468.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Передаёт документ на проверку</text>
+<polyline id="c4_1_payment" data-kind="seq" points="1595,515 2082.5,640" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1838.75" y="568.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Передаёт запросы и учитывает результаты</text>
+<polyline id="c4_1_email" data-kind="seq" points="1595,515 2082.5,840" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1838.75" y="668.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Передаёт квитанцию на отправку</text>
+<rect id="c4_1_owner" x="187.5" y="459" width="405" height="112" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="390" y="498.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">Владелец аккаунта</text>
+<text x="390" y="521.6666666666666" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">[Пользователь]</text>
+<text x="390" y="544.6666666666666" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">Покупает и обслуживает поездку</text>
+<rect id="c4_1_system" x="1045" y="437" width="550" height="156" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1320" y="484.8333333333333" text-anchor="middle" fill="#182C40" font-size="22" font-weight="600">Система бронирования авиабилетов</text>
+<text x="1320" y="509.8333333333333" text-anchor="middle" fill="#182C40" font-size="22" font-weight="600">[Программная система · A0]</text>
+<text x="1320" y="534.8333333333334" text-anchor="middle" fill="#182C40" font-size="22" font-weight="600">Обеспечивает покупку</text>
+<text x="1320" y="559.8333333333334" text-anchor="middle" fill="#182C40" font-size="22" font-weight="600">и обслуживание поездки</text>
+<rect id="c4_1_reg" x="2082.5" y="188.5" width="415" height="103" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="2290" y="225" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Сервис регистрации</text>
+<text x="2290" y="246" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">[Внешняя программная система]</text>
+<text x="2290" y="267" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Регистрирует учётную запись</text>
+<rect id="c4_1_verify" x="2082.5" y="388.5" width="415" height="103" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="2290" y="425" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Сервис проверки документов</text>
+<text x="2290" y="446" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">[Внешняя программная система]</text>
+<text x="2290" y="467" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Возвращает результат проверки</text>
+<rect id="c4_1_pay" x="2082.5" y="588.5" width="415" height="103" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="2290" y="625" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Платёжный сервис</text>
+<text x="2290" y="646" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">[Внешняя программная система]</text>
+<text x="2290" y="667" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Проводит оплату, доплату и возврат</text>
+<rect id="c4_1_mail" x="2082.5" y="788.5" width="415" height="103" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="2290" y="825" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Почтовая доставка</text>
+<text x="2290" y="846" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">[Внешняя программная система]</text>
+<text x="2290" y="867" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Принимает квитанции к отправке</text>
+<text x="45" y="1042" text-anchor="start" fill="#182C40" font-size="18" font-weight="400">Оплата выполняется на форме внешнего платёжного сервиса.</text>
+<text x="45" y="1071" text-anchor="start" fill="#182C40" font-size="18" font-weight="400">Авиакомпания выступает заказчиком. Сценарии взаимодействия владельца аккаунта раскрыты в P01–P04.</text>
+<text x="1056" y="628" text-anchor="start" fill="#174F4B" font-size="19" font-weight="650">IDEF0 · A0</text>
+</svg>

@@ -1,0 +1,229 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="2240" viewBox="0 0 1560 2240" role="img" aria-labelledby="title desc" font-family="Segoe UI, Arial, sans-serif"><title id="title">Концептуальная модель системы бронирования авиабилетов</title><desc id="desc">Три фрагмента ER-диаграммы в нотации Чена. Коды отношений соответствуют реестру концептуальной модели.</desc><rect width="1560" height="2240" fill="#F3F6FA"/>
+<text x="32" y="37" text-anchor="start" dominant-baseline="middle" font-size="29" font-weight="700" fill="#142437">Система бронирования авиабилетов</text>
+<text x="32" y="73" text-anchor="start" dominant-baseline="middle" font-size="18" font-weight="500" fill="#425466">Концептуальная модель данных · нотация Чена · рабочая редакция</text>
+<g transform="translate(0 96)"><rect x="18" y="0" width="1524" height="666" rx="15" fill="white" stroke="#D7E1EB" stroke-width="2"/>
+<text x="42" y="37" text-anchor="start" dominant-baseline="middle" font-size="25" font-weight="700" fill="#142437">01  Аккаунты, пассажиры и документы</text>
+<text x="42" y="71" text-anchor="start" dominant-baseline="middle" font-size="17" font-weight="500" fill="#425466">Регистрация, перечень пассажиров и проверка документа, по которой оформляется бронирование.</text>
+<polyline points="270,245 460,245" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="670,245 860,245" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="1070,245 1260,245" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="1365,269 1365,451" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="565,269 565,515 660,515" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="965,269 965,515 870,515" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="1470,475 1510,475 1510,620 765,620 765,539" fill="none" stroke="#718197" stroke-width="2"/>
+<line x1="165" y1="245" x2="165" y2="151" stroke="#718197" stroke-width="1.6"/><ellipse cx="165" cy="151" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="165" y="151" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">L-ID</text>
+<g id="A-L"><title>Учётная запись для входа</title><rect x="60" y="221" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="165" y="245" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="650" fill="#142437">Учётная запись для входа</text>
+</g>
+<line x1="565" y1="245" x2="565" y2="151" stroke="#718197" stroke-width="1.6"/><ellipse cx="565" cy="151" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="565" y="151" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">A-ID</text>
+<g id="A-A"><title>Аккаунт</title><rect x="460" y="221" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="565" y="245" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Аккаунт</text>
+</g>
+<line x1="965" y1="245" x2="965" y2="151" stroke="#718197" stroke-width="1.6"/><ellipse cx="965" cy="151" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="965" y="151" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">P-ID</text>
+<g id="A-P"><title>Пассажир</title><rect x="860" y="221" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="965" y="245" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Пассажир</text>
+</g>
+<line x1="1365" y1="245" x2="1365" y2="151" stroke="#718197" stroke-width="1.6"/><ellipse cx="1365" cy="151" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="1365" y="151" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">D-ID</text>
+<line x1="1365" y1="245" x2="1211" y2="151" stroke="#718197" stroke-width="1.6"/><ellipse cx="1211" cy="151" rx="68" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/><text x="1211" y="151" text-anchor="middle" dominant-baseline="middle" font-size="14" fill="#142437">Вид документа</text>
+<g id="A-D"><title>Документ пассажира</title><rect x="1260" y="221" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="1365" y="245" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Документ пассажира</text>
+</g>
+<line x1="1365" y1="475" x2="1365" y2="553" stroke="#718197" stroke-width="1.6"/><ellipse cx="1365" cy="553" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="1365" y="553" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">V-ID</text>
+<line x1="1365" y1="475" x2="1210" y2="553" stroke="#718197" stroke-width="1.6"/><ellipse cx="1210" cy="553" rx="77" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/><text x="1210" y="553" text-anchor="middle" dominant-baseline="middle" font-size="14" fill="#142437">Результат проверки</text>
+<g id="A-V"><title>Проверка документа</title><rect x="1260" y="451" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="1365" y="475" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Проверка документа</text>
+</g>
+<line x1="765" y1="515" x2="765" y2="438" stroke="#718197" stroke-width="1.6"/><ellipse cx="765" cy="438" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="765" y="438" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">B-ID</text>
+<line x1="765" y1="515" x2="902" y2="440" stroke="#718197" stroke-width="1.6"/><ellipse cx="902" cy="440" rx="58" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/><text x="902" y="440" text-anchor="middle" dominant-baseline="middle" font-size="14" fill="#142437">Состояние</text>
+<g id="A-B"><title>Бронирование</title><rect x="660" y="491" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="765" y="515" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Бронирование</text>
+</g>
+<g id="R01"><title>Учётная запись для входа связана с аккаунтом приложения.</title><polygon points="365,221 406,245 365,269 324,245" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="365" y="245" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R01</text>
+</g>
+<text x="305" y="233" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..1</text>
+<text x="426" y="233" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R02"><title>Аккаунт содержит записи о пассажирах. Каждая запись относится к одному аккаунту.</title><polygon points="765,221 806,245 765,269 724,245" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="765" y="245" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R02</text>
+</g>
+<text x="705" y="233" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="825" y="233" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R03"><title>Документ относится к одному пассажиру.</title><polygon points="1165,221 1206,245 1165,269 1124,245" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="1165" y="245" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R03</text>
+</g>
+<text x="1105" y="233" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="1225" y="233" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R04"><title>Проверка относится к конкретному загруженному документу.</title><polygon points="1365,336 1406,360 1365,384 1324,360" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="1365" y="360" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R04</text>
+</g>
+<text x="1393" y="310" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="1393" y="416" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R05"><title>Аккаунт, с которого оформлено бронирование.</title><polygon points="565,351 606,375 565,399 524,375" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="565" y="375" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R05</text>
+</g>
+<text x="593" y="304" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="628" y="504" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R06"><title>Пассажир, на которого оформлено бронирование.</title><polygon points="965,351 1006,375 965,399 924,375" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="965" y="375" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R06</text>
+</g>
+<text x="937" y="304" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="905" y="504" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R07"><title>Проверка, положительный результат которой послужил основанием для оформления бронирования.</title><polygon points="1120,596 1161,620 1120,644 1079,620" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="1120" y="620" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R07</text>
+</g>
+<text x="1496" y="454" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="802" y="575" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+</g>
+<g transform="translate(0 778)"><rect x="18" y="0" width="1524" height="666" rx="15" fill="white" stroke="#D7E1EB" stroke-width="2"/>
+<text x="42" y="37" text-anchor="start" dominant-baseline="middle" font-size="25" font-weight="700" fill="#142437">02  Рейсы, пассажирские места и багаж</text>
+<text x="42" y="71" text-anchor="start" dominant-baseline="middle" font-size="17" font-weight="500" fill="#425466">Роли аэропортов, закрепление пассажирских мест и учёт багажной вместимости.</text>
+<polyline points="260,230 280,177 410,177 430,230" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="260,250 280,307 410,307 430,250" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="640,240 890,240" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="535,264 535,511" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="640,535 890,535" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="995,264 995,511" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="535,559 535,623 1385,623 1385,559" fill="none" stroke="#718197" stroke-width="2"/>
+<line x1="155" y1="240" x2="155" y2="150" stroke="#718197" stroke-width="1.6"/><ellipse cx="155" cy="150" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="155" y="150" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">H-ID</text>
+<g id="B-H"><title>Аэропорт</title><rect x="50" y="216" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="155" y="240" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Аэропорт</text>
+</g>
+<line x1="535" y1="240" x2="535" y2="150" stroke="#718197" stroke-width="1.6"/><ellipse cx="535" cy="150" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="535" y="150" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">F-ID</text>
+<line x1="535" y1="240" x2="692" y2="123" stroke="#718197" stroke-width="1.6"/><ellipse cx="692" cy="123" rx="89" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/><text x="692" y="123" text-anchor="middle" dominant-baseline="middle" font-size="14" fill="#142437">Пассажирский предел</text>
+<line x1="535" y1="240" x2="862" y2="163" stroke="#718197" stroke-width="1.6"/><ellipse cx="862" cy="163" rx="75" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/><text x="862" y="163" text-anchor="middle" dominant-baseline="middle" font-size="14" fill="#142437">Багажный предел</text>
+<g id="B-F"><title>Рейс</title><rect x="430" y="216" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="535" y="240" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Рейс</text>
+</g>
+<line x1="995" y1="240" x2="995" y2="150" stroke="#718197" stroke-width="1.6"/><ellipse cx="995" cy="150" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="995" y="150" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">S-ID</text>
+<line x1="995" y1="240" x2="1140" y2="150" stroke="#718197" stroke-width="1.6"/><ellipse cx="1140" cy="150" rx="76" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/><text x="1140" y="150" text-anchor="middle" dominant-baseline="middle" font-size="14" fill="#142437">Обозначение места</text>
+<g id="B-S"><title>Место на рейсе</title><rect x="890" y="216" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="995" y="240" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Место на рейсе</text>
+</g>
+<line x1="535" y1="535" x2="339" y2="478" stroke="#718197" stroke-width="1.6"/><ellipse cx="339" cy="478" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="339" y="478" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">B-ID</text>
+<g id="B-B"><title>Бронирование</title><rect x="430" y="511" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="535" y="535" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Бронирование</text>
+</g>
+<line x1="995" y1="535" x2="1055" y2="462" stroke="#718197" stroke-width="1.6"/><ellipse cx="1055" cy="462" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="1055" y="462" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">Z-ID</text>
+<g id="B-Z"><title>Закрепление места</title><rect x="890" y="511" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="995" y="535" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Закрепление места</text>
+</g>
+<line x1="1385" y1="535" x2="1385" y2="447" stroke="#718197" stroke-width="1.6"/><ellipse cx="1385" cy="447" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="1385" y="447" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">G-ID</text>
+<line x1="1385" y1="535" x2="1220" y2="447" stroke="#718197" stroke-width="1.6"/><ellipse cx="1220" cy="447" rx="72" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/><text x="1220" y="447" text-anchor="middle" dominant-baseline="middle" font-size="14" fill="#142437">Количество мест</text>
+<g id="B-G"><title>Закрепление мест багажа</title><rect x="1280" y="511" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="1385" y="535" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="650" fill="#142437">Закрепление мест багажа</text>
+</g>
+<g id="R08"><title>Аэропорт в роли пункта отправления.</title><polygon points="345,153 386,177 345,201 304,177" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="345" y="177" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R08</text>
+</g>
+<text x="275" y="211" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="417" y="211" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R09"><title>Аэропорт в роли пункта назначения.</title><polygon points="345,283 386,307 345,331 304,307" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="345" y="307" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R09</text>
+</g>
+<text x="276" y="282" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="418" y="282" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R10"><title>Место относится к конкретному рейсу.</title><polygon points="765,216 806,240 765,264 724,240" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="765" y="240" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R10</text>
+</g>
+<text x="678" y="227" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="850" y="227" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R11"><title>Рейс, выбранный при оформлении бронирования.</title><polygon points="535,366 576,390 535,414 494,390" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="535" y="390" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R11</text>
+</g>
+<text x="562" y="312" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="562" y="473" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R12"><title>Последовательность закреплений пассажирского места за бронированием.</title><polygon points="765,511 806,535 765,559 724,535" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="765" y="535" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R12</text>
+</g>
+<text x="677" y="521" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..N</text>
+<text x="850" y="521" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R13"><title>Место, указанное в записи закрепления.</title><polygon points="995,366 1036,390 995,414 954,390" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="995" y="390" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R13</text>
+</g>
+<text x="1022" y="312" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="968" y="473" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R14"><title>Первоначальные и дополнительные места багажа по бронированию.</title><polygon points="1150,599 1191,623 1150,647 1109,623" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="1150" y="623" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R14</text>
+</g>
+<text x="570" y="590" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="1420" y="590" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+</g>
+<g transform="translate(0 1460)"><rect x="18" y="0" width="1524" height="666" rx="15" fill="white" stroke="#D7E1EB" stroke-width="2"/>
+<text x="42" y="37" text-anchor="start" dominant-baseline="middle" font-size="25" font-weight="700" fill="#142437">03  Оплата, оформление билета и возврат</text>
+<text x="42" y="71" text-anchor="start" dominant-baseline="middle" font-size="17" font-weight="500" fill="#425466">Платёжная попытка, билет после оплаты и запрос на возврат по отменённому бронированию.</text>
+<polyline points="325,235 595,235" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="1075,235 805,235" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="220,259 220,491" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="325,255 595,500" fill="none" stroke="#718197" stroke-width="2"/>
+<polyline points="700,259 700,491" fill="none" stroke="#718197" stroke-width="2"/>
+<line x1="220" y1="235" x2="220" y2="148" stroke="#718197" stroke-width="1.6"/><ellipse cx="220" cy="148" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="220" y="148" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">B-ID</text>
+<g id="C-B"><title>Бронирование</title><rect x="115" y="211" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="220" y="235" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Бронирование</text>
+</g>
+<line x1="700" y1="235" x2="700" y2="148" stroke="#718197" stroke-width="1.6"/><ellipse cx="700" cy="148" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="700" y="148" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">M-ID</text>
+<line x1="700" y1="235" x2="550" y2="143" stroke="#718197" stroke-width="1.6"/><ellipse cx="550" cy="143" rx="67" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/><text x="550" y="143" text-anchor="middle" dominant-baseline="middle" font-size="14" fill="#142437">Назначение</text>
+<g id="C-M"><title>Платёжная попытка</title><rect x="595" y="211" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="700" y="235" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Платёжная попытка</text>
+</g>
+<line x1="1180" y1="235" x2="1180" y2="148" stroke="#718197" stroke-width="1.6"/><ellipse cx="1180" cy="148" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="1180" y="148" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">G-ID</text>
+<g id="C-G"><title>Закрепление мест багажа</title><rect x="1075" y="211" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="1180" y="235" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="650" fill="#142437">Закрепление мест багажа</text>
+</g>
+<line x1="220" y1="515" x2="220" y2="591" stroke="#718197" stroke-width="1.6"/><ellipse cx="220" cy="591" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="220" y="591" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">T-ID</text>
+<line x1="220" y1="515" x2="370" y2="591" stroke="#718197" stroke-width="1.6"/><ellipse cx="370" cy="591" rx="65" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/><text x="370" y="591" text-anchor="middle" dominant-baseline="middle" font-size="14" fill="#142437">Номер билета</text>
+<g id="C-T"><title>Билет</title><rect x="115" y="491" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="220" y="515" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Билет</text>
+</g>
+<line x1="700" y1="515" x2="700" y2="591" stroke="#718197" stroke-width="1.6"/><ellipse cx="700" cy="591" rx="46" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/>
+<text x="700" y="591" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" text-decoration="underline">Q-ID</text>
+<line x1="700" y1="515" x2="850" y2="591" stroke="#718197" stroke-width="1.6"/><ellipse cx="850" cy="591" rx="74" ry="19" fill="white" stroke="#59708A" stroke-width="1.6"/><text x="850" y="591" text-anchor="middle" dominant-baseline="middle" font-size="14" fill="#142437">Состояние запроса</text>
+<g id="C-Q"><title>Запрос на возврат</title><rect x="595" y="491" width="210" height="48" fill="#EDF4FE" stroke="#59708A" stroke-width="2"/>
+<text x="700" y="515" text-anchor="middle" dominant-baseline="middle" font-size="17" font-weight="650" fill="#142437">Запрос на возврат</text>
+</g>
+<g id="R15"><title>Попытка оплаты билета или дополнительных мест багажа по бронированию.</title><polygon points="460,211 501,235 460,259 419,235" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="460" y="235" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R15</text>
+</g>
+<text x="372" y="222" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="553" y="222" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R16"><title>Платёжная попытка, относящаяся к данному закреплению багажа, если она начата.</title><polygon points="940,211 981,235 940,259 899,235" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="940" y="235" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R16</text>
+</g>
+<text x="1028" y="222" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..1</text>
+<text x="851" y="222" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..1</text>
+<g id="R17"><title>Билет оформляется по бронированию после подтверждения оплаты.</title><polygon points="220,350 261,374 220,398 179,374" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="220" y="374" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R17</text>
+</g>
+<text x="250" y="311" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..1</text>
+<text x="250" y="454" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R18"><title>Отменённое бронирование, по которому подан запрос.</title><polygon points="459,369 500,393 459,417 418,393" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="459" y="393" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R18</text>
+</g>
+<text x="354" y="295" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="561" y="454" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+<g id="R19"><title>Подтверждённая оплата билета, по которой запрошен возврат.</title><polygon points="700,350 741,374 700,398 659,374" fill="#E0F5EF" stroke="#0C6556" stroke-width="2"/>
+<text x="700" y="374" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="700" fill="#0C6556">R19</text>
+</g>
+<text x="729" y="311" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">0..N</text>
+<text x="729" y="454" text-anchor="middle" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437" paint-order="stroke" stroke="white" stroke-width="4" stroke-linejoin="round">1..1</text>
+</g>
+<g transform="translate(0 2142)"><rect x="18" y="0" width="1524" height="82" rx="12" fill="white" stroke="#D7E1EB" stroke-width="2"/>
+<text x="42" y="24" text-anchor="start" dominant-baseline="middle" font-size="18" font-weight="700" fill="#142437">Легенда</text>
+<text x="42" y="54" text-anchor="start" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437">Прямоугольник — сущность. Ромб — отношение. Овал — атрибут. Подчёркивание — идентификатор.</text>
+<text x="795" y="54" text-anchor="start" dominant-baseline="middle" font-size="15" font-weight="500" fill="#142437">Участие — минимум..максимум. N — множество. Повтор кода — та же сущность.</text>
+</g></svg>

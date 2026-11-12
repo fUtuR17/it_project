@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5060" height="1320" viewBox="0 0 5060 1320" role="img" aria-label="Регистрация, вход и проверка документа" font-family="Segoe UI, Arial, sans-serif"><title>Регистрация, вход и проверка документа</title><defs><marker id="seq" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5.5 L0,11 Z" fill="#324D63" stroke="#324D63" stroke-width="1.4"/></marker><marker id="message" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#596985" stroke-width="1.4"/></marker><marker id="access" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#20746B" stroke-width="1.4"/></marker></defs><rect width="5060" height="1320" fill="#FFFFFF"/>
+<rect id="p01_main" x="30" y="130" width="5000" height="940" fill="#FFFFFF" stroke="#234E75" stroke-width="2" />
+<rect id="p01_lane" x="32" y="132" width="4996" height="218" fill="#F7FAFD" stroke="none" stroke-width="2" />
+<line x1="32" y1="350" x2="5028" y2="350" stroke="#234E75" stroke-width="2"/>
+<line x1="120" y1="132" x2="120" y2="1070" stroke="#234E75" stroke-width="2"/>
+<text x="35" y="53" text-anchor="start" fill="#182C40" font-size="32" font-weight="700">P01 · Регистрация, вход и проверка документа</text>
+<text x="36" y="95" text-anchor="start" fill="#182C40" font-size="20" font-weight="400">Запуск — запрос доступа. Первичный вход — введённый идентификатор входа.</text>
+<text x="76" y="164" text-anchor="middle" fill="#182C40" font-size="14" font-weight="400">Владелец</text>
+<text x="76" y="184" text-anchor="middle" fill="#182C40" font-size="14" font-weight="400">аккаунта</text>
+<text x="76" y="390" text-anchor="middle" fill="#182C40" font-size="13" font-weight="400">Приложение</text>
+<polyline id="p01_s1" data-kind="seq" points="191,220 378.5,220" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p01_s2" data-kind="seq" points="621.5,220 660,220 660,500 698.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p01_s3" data-kind="seq" points="941.5,500 1097.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p01_s4" data-kind="seq" points="1135,462.5 1135,150 1910,150 1910,184" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1522.5" y="138" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Да</text>
+<polyline id="p01_s5" data-kind="seq" points="1172.5,500 1245.5,500 1245.5,220 1318.5,220" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1209" y="490" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Нет</text>
+<polyline id="p01_s6" data-kind="seq" points="1561.5,690 1658.5,690" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p01_s7" data-kind="seq" points="1780,654 1780,455 1910,455 1910,256" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1780" y="545.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Успех</text>
+<polyline id="p01_s8" data-kind="seq" points="1901.5,690 2100,690 2100,929" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2000.75" y="681" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Отказ</text>
+<polyline id="p01_s9" data-kind="seq" points="2031.5,220 2080,220 2080,500 2128.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p01_s10" data-kind="seq" points="2371.5,500 2522.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p01_s11" data-kind="seq" points="2597.5,500 2638,500 2638,220 2678.5,220" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2617.75" y="491" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Да</text>
+<polyline id="p01_s12" data-kind="seq" points="2560,537.5 2560,899" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2573" y="723.25" text-anchor="start" fill="#324D63" font-size="15" font-weight="600">Нет</text>
+<polyline id="p01_s13" data-kind="seq" points="3021.5,500 3070,500 3070,220 3118.5,220" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p01_s14" data-kind="seq" points="3361.5,220 3395,220 3395,500 3428.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p01_s15" data-kind="seq" points="3671.5,500 3768.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p01_s16" data-kind="seq" points="4011.5,500 4202.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p01_s17" data-kind="seq" points="4277.5,500 4559,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="4418.25" y="491" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Да</text>
+<polyline id="p01_s18" data-kind="seq" points="4240,537.5 4240,879" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="4253" y="713.25" text-anchor="start" fill="#324D63" font-size="15" font-weight="600">Нет</text>
+<polyline id="p01_access_find" data-kind="access" points="820,594.5 820,536" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="833" y="570.25" text-anchor="start" fill="#20746B" font-size="15" font-weight="600">Чтение</text>
+<polyline id="p01_access_reg" data-kind="access" points="1440,726 1440,750.75 1335,750.75 1335,775.5" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-start="url(#access)" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1440" y="729.375" text-anchor="middle" fill="#20746B" font-size="15" font-weight="600">Чтение и запись</text>
+<polyline id="p01_access_link" data-kind="access" points="1780,726 1780,753.25 1875,753.25 1875,780.5" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-start="url(#access)" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1780" y="730.625" text-anchor="middle" fill="#20746B" font-size="15" font-weight="600">Чтение и запись</text>
+<polyline id="p01_access_auth" data-kind="access" points="2250,594.5 2250,536" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2263" y="570.25" text-anchor="start" fill="#20746B" font-size="15" font-weight="600">Чтение</text>
+<polyline id="p01_access_passengers" data-kind="access" points="2900,536 2900,594.5" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-start="url(#access)" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2913" y="570.25" text-anchor="start" fill="#20746B" font-size="15" font-weight="600">Чтение и запись</text>
+<polyline id="p01_access_submit" data-kind="access" points="3550,536 3550,560.75 3455,560.75 3455,585.5" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-start="url(#access)" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3550" y="539.375" text-anchor="middle" fill="#20746B" font-size="15" font-weight="600">Чтение и запись</text>
+<polyline id="p01_access_result" data-kind="access" points="3890,536 3890,563.25 3985,563.25 3985,590.5" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-start="url(#access)" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3890" y="540.625" text-anchor="middle" fill="#20746B" font-size="15" font-weight="600">Чтение и запись</text>
+<polyline id="p01_m1" data-kind="message" points="1528,726 1528,1067 1475,1067 1475,1138" fill="none" stroke="#596985" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#message)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1467" y="1118" text-anchor="end" fill="#596985" font-size="15" font-weight="600">Сведения формы</text>
+<polyline id="p01_m2" data-kind="message" points="1685,1138 1685,1067 1692,1067 1692,726" fill="none" stroke="#596985" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#message)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1693" y="1118" text-anchor="start" fill="#596985" font-size="15" font-weight="600">Результат регистрации</text>
+<polyline id="p01_m3" data-kind="message" points="3638,536 3638,1067 3605,1067 3605,1138" fill="none" stroke="#596985" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#message)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3597" y="1118" text-anchor="end" fill="#596985" font-size="15" font-weight="600">Документ и реквизиты</text>
+<polyline id="p01_m4" data-kind="message" points="3815,1138 3815,1067 3802,1067 3802,536" fill="none" stroke="#596985" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#message)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3823" y="1118" text-anchor="start" fill="#596985" font-size="15" font-weight="600">Результат проверки</text>
+<ellipse id="p01_start" cx="170" cy="220" rx="21" ry="21" fill="#FFFFFF" stroke="#234E75" stroke-width="2"/>
+<text x="170" y="262" text-anchor="middle" fill="#234E75" font-size="16" font-weight="650">Начало</text>
+<rect id="p01_identify" x="378.5" y="184" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="500" y="215.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Указать идентификатор</text>
+<text x="500" y="236.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">входа</text>
+<rect id="p01_find" x="698.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="820" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Проверить наличие</text>
+<text x="820" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">аккаунта</text>
+<polygon id="p01_exists" points="1135,462.5 1172.5,500 1135,537.5 1097.5,500" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="1135" y="510" text-anchor="middle" fill="#563C12" font-size="30" font-weight="600">×</text>
+<text x="1135" y="448.5" text-anchor="middle" fill="#563C12" font-size="16" font-weight="650">Аккаунт существует?</text>
+<rect id="p01_reg" x="1318.5" y="654" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1440" y="685.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Зарегистрировать учётную</text>
+<text x="1440" y="706.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">запись</text>
+<rect id="p01_link" x="1658.5" y="654" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1780" y="675" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Обработать ответ и</text>
+<text x="1780" y="696" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">создать аккаунт при</text>
+<text x="1780" y="717" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">подтверждении</text>
+<ellipse id="p01_regfail" cx="2100" cy="950" rx="21" ry="21" fill="#FFFFFF" stroke="#9A3537" stroke-width="4"/>
+<text x="2100" y="992" text-anchor="middle" fill="#9A3537" font-size="16" font-weight="650">Регистрация отклонена</text>
+<rect id="p01_credentials" x="1788.5" y="184" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1910" y="226" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Ввести учётные данные</text>
+<rect id="p01_auth" x="2128.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2250" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Проверить учётные данные</text>
+<text x="2250" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">и открыть доступ</text>
+<polygon id="p01_authok" points="2560,462.5 2597.5,500 2560,537.5 2522.5,500" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="2560" y="510" text-anchor="middle" fill="#563C12" font-size="30" font-weight="600">×</text>
+<text x="2560" y="448.5" text-anchor="middle" fill="#563C12" font-size="16" font-weight="650">Доступ подтверждён?</text>
+<ellipse id="p01_authfail" cx="2560" cy="920" rx="21" ry="21" fill="#FFFFFF" stroke="#9A3537" stroke-width="4"/>
+<text x="2560" y="962" text-anchor="middle" fill="#9A3537" font-size="16" font-weight="650">Вход отклонён</text>
+<rect id="p01_passengers" x="2778.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2900" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Показать список или</text>
+<text x="2900" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">сохранить пассажира</text>
+<rect id="p01_upload" x="3118.5" y="184" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="3240" y="215.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Выбрать пассажира и</text>
+<text x="3240" y="236.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">загрузить документ</text>
+<rect id="p01_submit" x="3428.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="3550" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Сохранить документ и</text>
+<text x="3550" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">направить на проверку</text>
+<rect id="p01_result" x="3768.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="3890" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Сохранить полученный</text>
+<text x="3890" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">результат проверки</text>
+<polygon id="p01_valid" points="4240,462.5 4277.5,500 4240,537.5 4202.5,500" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="4240" y="510" text-anchor="middle" fill="#563C12" font-size="30" font-weight="600">×</text>
+<text x="4240" y="448.5" text-anchor="middle" fill="#563C12" font-size="16" font-weight="650">Проверка положительна?</text>
+<ellipse id="p01_docok" cx="4580" cy="500" rx="21" ry="21" fill="#FFFFFF" stroke="#14644D" stroke-width="4"/>
+<text x="4580" y="542" text-anchor="middle" fill="#14644D" font-size="16" font-weight="650">Документ подтверждён</text>
+<ellipse id="p01_docfail" cx="4240" cy="900" rx="21" ry="21" fill="#FFFFFF" stroke="#9A3537" stroke-width="4"/>
+<text x="4240" y="942" text-anchor="middle" fill="#9A3537" font-size="16" font-weight="650">Документ отклонён</text>
+<rect id="p01_registration" x="1355" y="1138" width="450" height="64" fill="#F0F0F7" stroke="#596985" stroke-width="2" />
+<text x="1580" y="1176.3333333333333" text-anchor="middle" fill="#334361" font-size="19" font-weight="600">Сервис регистрации</text>
+<rect id="p01_verification" x="3485" y="1138" width="450" height="64" fill="#F0F0F7" stroke="#596985" stroke-width="2" />
+<text x="3710" y="1176.3333333333333" text-anchor="middle" fill="#334361" font-size="19" font-weight="600">Внешний сервис проверки документов</text>
+<path id="p01_src_find" d="M685,603.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M685,603.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="820" y="626" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Учётные записи и</text>
+<text x="820" y="644" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">аккаунты</text>
+<path id="p01_src_reg" d="M1200,784.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M1200,784.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="1335" y="807" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Локальные запросы</text>
+<text x="1335" y="825" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">регистрации</text>
+<path id="p01_src_link" d="M1740,789.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M1740,789.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="1875" y="812" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Учётные записи, аккаунты</text>
+<text x="1875" y="830" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">и запросы</text>
+<path id="p01_src_auth" d="M2115,603.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M2115,603.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="2250" y="635" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Учётная запись и аккаунт</text>
+<path id="p01_src_passengers" d="M2765,603.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M2765,603.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="2900" y="635" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Аккаунты и пассажиры</text>
+<path id="p01_src_submit" d="M3320,594.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M3320,594.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="3455" y="617" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Пассажиры, документы и</text>
+<text x="3455" y="635" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">проверки</text>
+<path id="p01_src_result" d="M3850,599.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M3850,599.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="3985" y="622" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Документы и записи</text>
+<text x="3985" y="640" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">проверок</text>
+<text x="36" y="1281" text-anchor="start" fill="#182C40" font-size="18" font-weight="400">Сплошная стрелка — ход процесса. Штриховая — сообщение внешнему участнику. Точечная — чтение или запись. Повтор подписи хранилища обозначает ту же логическую группу данных.</text>
+<polyline id="p01_s_form_reg" data-kind="seq" points="1440,256 1440,654" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p01_s_open_pass" data-kind="seq" points="2800,256 2800,360 2900,360 2900,464" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<rect id="p01_form" x="1318.5" y="184" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1440" y="215.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Ввести сведения для</text>
+<text x="1440" y="236.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">регистрации</text>
+<rect id="p01_openpass" x="2678.5" y="184" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2800" y="205" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Открыть список или</text>
+<text x="2800" y="226" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">ввести сведения о</text>
+<text x="2800" y="247" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">пассажире</text>
+</svg>

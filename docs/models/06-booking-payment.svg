@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5230" height="1280" viewBox="0 0 5230 1280" role="img" aria-label="Бронирование и покупка билета" font-family="Segoe UI, Arial, sans-serif"><title>Бронирование и покупка билета</title><defs><marker id="seq" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5.5 L0,11 Z" fill="#324D63" stroke="#324D63" stroke-width="1.4"/></marker><marker id="message" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#596985" stroke-width="1.4"/></marker><marker id="access" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#20746B" stroke-width="1.4"/></marker></defs><rect width="5230" height="1280" fill="#FFFFFF"/>
+<rect id="p02_main" x="30" y="130" width="5170" height="910" fill="#FFFFFF" stroke="#234E75" stroke-width="2" />
+<rect id="p02_lane" x="32" y="132" width="5166" height="218" fill="#F7FAFD" stroke="none" stroke-width="2" />
+<line x1="32" y1="350" x2="5198" y2="350" stroke="#234E75" stroke-width="2"/>
+<line x1="120" y1="132" x2="120" y2="1040" stroke="#234E75" stroke-width="2"/>
+<text x="35" y="53" text-anchor="start" fill="#182C40" font-size="32" font-weight="700">P02 · Бронирование и покупка билета</text>
+<text x="36" y="95" text-anchor="start" fill="#182C40" font-size="20" font-weight="400">Запуск — открытие оформления после входа. Сначала выбирается рейс, затем пассажир.</text>
+<text x="76" y="164" text-anchor="middle" fill="#182C40" font-size="14" font-weight="400">Владелец</text>
+<text x="76" y="184" text-anchor="middle" fill="#182C40" font-size="14" font-weight="400">аккаунта</text>
+<text x="76" y="390" text-anchor="middle" fill="#182C40" font-size="13" font-weight="400">Приложение</text>
+<polyline id="p02_s1" data-kind="seq" points="191,220 348.5,220" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_s2" data-kind="seq" points="591.5,220 620,220 620,500 648.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_s3" data-kind="seq" points="891.5,500 925,500 925,220 958.5,220" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_s4" data-kind="seq" points="1201.5,220 1235,220 1235,500 1268.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_s5" data-kind="seq" points="1511.5,500 1550,500 1550,220 1588.5,220" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_s6" data-kind="seq" points="1831.5,220 1918.5,220" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_s7" data-kind="seq" points="2161.5,220 2195,220 2195,500 2228.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_s8" data-kind="seq" points="2471.5,500 2622.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_s9" data-kind="seq" points="2660,537.5 2660,884" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2673" y="715.75" text-anchor="start" fill="#324D63" font-size="15" font-weight="600">Нет</text>
+<polyline id="p02_s10" data-kind="seq" points="2697.5,500 2838.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2768" y="491" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Да</text>
+<polyline id="p02_s11" data-kind="seq" points="3081.5,500 3168.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_s12" data-kind="seq" points="3290,464 3290,220 3368.5,220" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_s13" data-kind="seq" points="3611.5,220 3640,220 3640,464" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_s14" data-kind="seq" points="3761.5,500 3902.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_s15" data-kind="seq" points="3977.5,500 4108.5,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="4043" y="491" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Да</text>
+<polyline id="p02_s16" data-kind="seq" points="4351.5,500 4579,500" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_s17" data-kind="seq" points="3940,537.5 3940,800 4108.5,800" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3940" y="659.75" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Нет</text>
+<polyline id="p02_s18" data-kind="seq" points="4351.5,800 4579,800" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<polyline id="p02_access_flights" data-kind="access" points="770,594.5 770,536" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="783" y="570.25" text-anchor="start" fill="#20746B" font-size="15" font-weight="600">Чтение</text>
+<polyline id="p02_access_people" data-kind="access" points="1390,594.5 1390,536" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1403" y="570.25" text-anchor="start" fill="#20746B" font-size="15" font-weight="600">Чтение</text>
+<polyline id="p02_access_check" data-kind="access" points="2350,594.5 2350,536" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2363" y="570.25" text-anchor="start" fill="#20746B" font-size="15" font-weight="600">Чтение</text>
+<polyline id="p02_access_book" data-kind="access" points="2960,536 2960,594.5" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-start="url(#access)" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2973" y="570.25" text-anchor="start" fill="#20746B" font-size="15" font-weight="600">Чтение и запись</text>
+<polyline id="p02_access_pay" data-kind="access" points="3290,536 3290,560.75 3245,560.75 3245,585.5" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-start="url(#access)" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3290" y="539.375" text-anchor="middle" fill="#20746B" font-size="15" font-weight="600">Чтение и запись</text>
+<polyline id="p02_access_ret" data-kind="access" points="3735,590.5 3735,563.25 3640,563.25 3640,536" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3735" y="567.875" text-anchor="middle" fill="#20746B" font-size="15" font-weight="600">Чтение</text>
+<polyline id="p02_access_ticket" data-kind="access" points="4230,536 4230,594.5" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-start="url(#access)" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="4243" y="570.25" text-anchor="start" fill="#20746B" font-size="15" font-weight="600">Чтение и запись</text>
+<polyline id="p02_access_release" data-kind="access" points="4230,836 4230,894.5" fill="none" stroke="#20746B" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="2 5" marker-start="url(#access)" marker-end="url(#access)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="4243" y="870.25" text-anchor="start" fill="#20746B" font-size="15" font-weight="600">Чтение и запись</text>
+<polyline id="p02_m1" data-kind="message" points="3378,536 3378,1027 3330,1027 3330,1098" fill="none" stroke="#596985" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#message)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3322" y="1078" text-anchor="end" fill="#596985" font-size="15" font-weight="600">Попытка, сумма и валюта</text>
+<polyline id="p02_m2" data-kind="message" points="3540,1098 3540,1027 3552,1027 3552,536" fill="none" stroke="#596985" stroke-width="2.8" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#message)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3548" y="1078" text-anchor="start" fill="#596985" font-size="15" font-weight="600">Итоговый результат</text>
+<ellipse id="p02_start" cx="170" cy="220" rx="21" ry="21" fill="#FFFFFF" stroke="#234E75" stroke-width="2"/>
+<text x="170" y="262" text-anchor="middle" fill="#234E75" font-size="16" font-weight="650">Начало</text>
+<rect id="p02_search" x="348.5" y="184" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="470" y="226" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Задать параметры поиска</text>
+<rect id="p02_flights" x="648.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="770" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Показать рейсы и</text>
+<text x="770" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">доступность</text>
+<rect id="p02_flight" x="958.5" y="184" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1080" y="226" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Выбрать рейс</text>
+<rect id="p02_people" x="1268.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1390" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Показать список</text>
+<text x="1390" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">пассажиров аккаунта</text>
+<rect id="p02_passenger" x="1588.5" y="184" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1710" y="226" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Выбрать пассажира</text>
+<rect id="p02_options" x="1918.5" y="184" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2040" y="215.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Выбрать место и указать</text>
+<text x="2040" y="236.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">багаж</text>
+<rect id="p02_check" x="2228.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2350" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Проверить документ,</text>
+<text x="2350" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">место и вместимость</text>
+<polygon id="p02_ok" points="2660,462.5 2697.5,500 2660,537.5 2622.5,500" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="2660" y="510" text-anchor="middle" fill="#563C12" font-size="30" font-weight="600">×</text>
+<text x="2660" y="448.5" text-anchor="middle" fill="#563C12" font-size="16" font-weight="650">Оформление допустимо?</text>
+<ellipse id="p02_deny" cx="2660" cy="905" rx="21" ry="21" fill="#FFFFFF" stroke="#9A3537" stroke-width="4"/>
+<text x="2660" y="947" text-anchor="middle" fill="#9A3537" font-size="16" font-weight="650">Бронь не создана</text>
+<rect id="p02_book" x="2838.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2960" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Создать бронь и</text>
+<text x="2960" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">закрепить места</text>
+<rect id="p02_pay" x="3168.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="3290" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Создать попытку и</text>
+<text x="3290" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">инициировать оплату</text>
+<rect id="p02_checkout" x="3368.5" y="184" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="3490" y="215.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Оплатить через внешнюю</text>
+<text x="3490" y="236.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">форму</text>
+<rect id="p02_ret" x="3518.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="3640" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Получить и сопоставить</text>
+<text x="3640" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">итог оплаты</text>
+<polygon id="p02_paid" points="3940,462.5 3977.5,500 3940,537.5 3902.5,500" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="3940" y="510" text-anchor="middle" fill="#563C12" font-size="30" font-weight="600">×</text>
+<text x="3940" y="448.5" text-anchor="middle" fill="#563C12" font-size="16" font-weight="650">Оплата подтверждена?</text>
+<rect id="p02_ticket" x="4108.5" y="464" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="4230" y="495.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Учесть оплату и оформить</text>
+<text x="4230" y="516.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">билет</text>
+<ellipse id="p02_done" cx="4600" cy="500" rx="21" ry="21" fill="#FFFFFF" stroke="#14644D" stroke-width="4"/>
+<text x="4600" y="542" text-anchor="middle" fill="#14644D" font-size="16" font-weight="650">Билет оформлен</text>
+<rect id="p02_release" x="4108.5" y="764" width="243" height="72" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="4230" y="795.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">Прекратить бронь и</text>
+<text x="4230" y="816.5" text-anchor="middle" fill="#182C40" font-size="18" font-weight="600">освободить места</text>
+<ellipse id="p02_fail" cx="4600" cy="800" rx="21" ry="21" fill="#FFFFFF" stroke="#9A3537" stroke-width="4"/>
+<text x="4600" y="842" text-anchor="middle" fill="#9A3537" font-size="16" font-weight="650">Оплата не состоялась</text>
+<rect id="p02_psp" x="3210" y="1098" width="450" height="64" fill="#F0F0F7" stroke="#596985" stroke-width="2" />
+<text x="3435" y="1136.3333333333333" text-anchor="middle" fill="#334361" font-size="19" font-weight="600">Внешний платёжный сервис</text>
+<path id="p02_src_flights" d="M635,603.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M635,603.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="770" y="626" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Каталог рейсов, места и</text>
+<text x="770" y="644" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">закрепления</text>
+<path id="p02_src_people" d="M1255,603.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M1255,603.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="1390" y="635" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Аккаунты и пассажиры</text>
+<path id="p02_src_check" d="M2215,603.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M2215,603.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="2350" y="626" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Пассажиры, проверки,</text>
+<text x="2350" y="644" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">рейсы и закрепления</text>
+<path id="p02_src_book" d="M2825,603.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M2825,603.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="2960" y="626" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Рейсы, бронирования и</text>
+<text x="2960" y="644" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">закрепления</text>
+<path id="p02_src_pay" d="M3120,594.5 a125,9 0 0 1 250,0 v45 a125,9 0 0 1 -250,0 Z M3120,594.5 a125,9 0 0 0 250,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="3245" y="617" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Бронирования и платёжные</text>
+<text x="3245" y="635" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">попытки</text>
+<path id="p02_src_ret" d="M3600,599.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M3600,599.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="3735" y="622" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Платёжные попытки и</text>
+<text x="3735" y="640" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">суммы</text>
+<path id="p02_src_ticket" d="M4095,603.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M4095,603.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="4230" y="626" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Платежи, бронирования,</text>
+<text x="4230" y="644" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">багаж и билеты</text>
+<path id="p02_src_release" d="M4095,903.5 a135,9 0 0 1 270,0 v45 a135,9 0 0 1 -270,0 Z M4095,903.5 a135,9 0 0 0 270,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="4230" y="926" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">БД · Платежи, бронирования и</text>
+<text x="4230" y="944" text-anchor="middle" fill="#174F4B" font-size="15" font-weight="400">закрепления</text>
+<text x="36" y="1241" text-anchor="start" fill="#182C40" font-size="18" font-weight="400">Сплошная стрелка — ход процесса. Штриховая — сообщение внешнему участнику. Точечная — чтение или запись. Повтор подписи хранилища обозначает ту же логическую группу данных.</text>
+</svg>

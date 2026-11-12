@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4840" height="1790" viewBox="0 0 4840 1790" role="img" aria-label="C4 · Уровень 3. Компоненты серверного приложения" font-family="Segoe UI, Arial, sans-serif"><title>C4 · Уровень 3. Компоненты серверного приложения</title><defs><marker id="seq" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5.5 L0,11 Z" fill="#324D63" stroke="#324D63" stroke-width="1.4"/></marker><marker id="message" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#596985" stroke-width="1.4"/></marker><marker id="access" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#20746B" stroke-width="1.4"/></marker></defs><rect width="4840" height="1790" fill="#FFFFFF"/>
+<text x="45" y="59" text-anchor="start" fill="#182C40" font-size="36" font-weight="700">C4 · Уровень 3. Компоненты серверного приложения</text>
+<text x="45" y="105" text-anchor="start" fill="#182C40" font-size="22" font-weight="400">Ответственные модули, функции A1–A5 и внешние интерфейсы</text>
+<rect id="c4_3_boundary" x="172" y="250" width="3910" height="1160" fill="#F7FAFD" stroke="#9CB4C6" stroke-width="2" rx="15" />
+<text x="196" y="288" text-anchor="start" fill="#234E75" font-size="21" font-weight="700">Контейнер «Серверное приложение»</text>
+<polyline id="c4_3_if01" data-kind="seq" points="2125,225 2125,377" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2320" y="305" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">IF-01 · Веб-запросы</text>
+<polyline id="c4_3_request_accounts" data-kind="seq" points="2125,493 490,699" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1307.5" y="587" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Вход и регистрация</text>
+<polyline id="c4_3_request_docs" data-kind="seq" points="2125,493 1270,699" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1697.5" y="587" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Пассажиры и документы</text>
+<polyline id="c4_3_request_booking" data-kind="seq" points="2125,493 2125,699" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2138" y="601" text-anchor="start" fill="#324D63" font-size="15" font-weight="600">Рейс, бронь, место, багаж и отмена</text>
+<polyline id="c4_3_request_pay" data-kind="seq" points="2125,493 2890,699" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2507.5" y="587" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Оплата и возврат</text>
+<polyline id="c4_3_request_view" data-kind="seq" points="2125,493 3660,699" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2892.5" y="587" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Сведения о поездке</text>
+<polyline id="c4_3_eligibility" data-kind="seq" points="1890,765 1505,765" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1697.5" y="756" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Сведения о допуске</text>
+<polyline id="c4_3_outcome" data-kind="seq" points="2360,765 2655,765" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2507.5" y="756" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">→ Основание платежа / ← Итог</text>
+<polyline id="c4_3_view_pay" data-kind="seq" points="3425,765 3125,765" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3275" y="756" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Сведения о платеже и возврате</text>
+<polyline id="c4_3_data_accounts" data-kind="seq" points="490,831 2125,1092.5" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1307.5" y="952.75" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Данные аккаунта</text>
+<polyline id="c4_3_data_docs" data-kind="seq" points="1270,831 2125,1092.5" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1697.5" y="952.75" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Данные пассажира</text>
+<polyline id="c4_3_data_booking" data-kind="seq" points="2125,831 2125,1092.5" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2315" y="1000" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Данные рейсов и брони</text>
+<polyline id="c4_3_data_pay" data-kind="seq" points="2890,831 2125,1092.5" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2507.5" y="952.75" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Данные платежей и билета</text>
+<polyline id="c4_3_data_view" data-kind="seq" points="3660,831 2125,1092.5" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2892.5" y="952.75" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Данные поездки</text>
+<polyline id="c4_3_if02" data-kind="seq" points="490,831 490,1478.5" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="685" y="1398" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">IF-02 · Регистрация</text>
+<polyline id="c4_3_if03" data-kind="seq" points="1270,831 1270,1478.5" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1510" y="1398" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">IF-03 · Проверка документа</text>
+<polyline id="c4_3_if04" data-kind="seq" points="2890,831 2890,1478.5" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2690" y="1398" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">IF-04 · Оплата и возврат</text>
+<polyline id="c4_3_if05" data-kind="seq" points="3660,831 3660,1478.5" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3860" y="1398" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">IF-05 · Отправка квитанции</text>
+<polyline id="c4_3_if07" data-kind="seq" points="2125,1207.5 2125,1477" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2350" y="1398" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">IF-07 · Операции с данными</text>
+<polyline id="c4_3_if06" data-kind="seq" points="4300,1230 3534,1230" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="4020" y="1208" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">IF-06 · Исходные сведения</text>
+<polyline id="c4_3_load" data-kind="seq" points="3295,1174 3295,1150 2375,1150" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2780" y="1121" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Обновление каталога</text>
+<rect id="c4_3_web" x="1900" y="131" width="450" height="94" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="2125" y="173" text-anchor="middle" fill="#334361" font-size="21" font-weight="600">Личный кабинет</text>
+<text x="2125" y="197" text-anchor="middle" fill="#334361" font-size="21" font-weight="600">[Контейнер · веб-интерфейс]</text>
+<rect id="c4_3_entry" x="1875" y="377" width="500" height="116" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2125" y="418.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">Обработка веб-запросов</text>
+<text x="2125" y="441.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">[Компонент · вход запросов]</text>
+<text x="2125" y="464.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">Проверяет контекст и передаёт команду</text>
+<rect id="c4_3_accounts" x="255" y="699" width="470" height="132" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="490" y="748" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">Аккаунты и доступ · A1</text>
+<text x="490" y="772" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">[Компонент]</text>
+<text x="490" y="796" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">Регистрация, вход и контекст аккаунта</text>
+<rect id="c4_3_docs" x="1035" y="699" width="470" height="132" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1270" y="748" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">Пассажиры и документы · A2</text>
+<text x="1270" y="772" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">[Компонент]</text>
+<text x="1270" y="796" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">Список пассажиров и проверка</text>
+<rect id="c4_3_booking" x="1890" y="699" width="470" height="132" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2125" y="748" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">Рейсы и бронирования · A3, A5</text>
+<text x="2125" y="772" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">[Компонент]</text>
+<text x="2125" y="796" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">Рейсы, брони и закрепления</text>
+<rect id="c4_3_pay" x="2655" y="699" width="470" height="132" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2890" y="748" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">Платежи и билеты · A4</text>
+<text x="2890" y="772" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">[Компонент]</text>
+<text x="2890" y="796" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">Оплата, выпуск билета и возврат</text>
+<rect id="c4_3_view" x="3425" y="699" width="470" height="132" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="3660" y="748" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">Представление поездки · A5</text>
+<text x="3660" y="772" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">[Компонент]</text>
+<text x="3660" y="796" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">Поездки, квитанции и статусы</text>
+<rect id="c4_3_repo" x="1875" y="1092.5" width="500" height="115" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2125" y="1133" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">Доступ к данным</text>
+<text x="2125" y="1157" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">[Компонент · инфраструктура]</text>
+<text x="2125" y="1181" text-anchor="middle" fill="#182C40" font-size="21" font-weight="600">Предметные данные и транзакции</text>
+<rect id="c4_3_import" x="3056" y="1174" width="478" height="112" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="3295" y="1213.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">Пакетная загрузка</text>
+<text x="3295" y="1236.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">[Компонент · подготовка каталога]</text>
+<text x="3295" y="1259.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">Валидирует и сохраняет рейсы</text>
+<rect id="c4_3_seed" x="4300" y="1179.5" width="420" height="101" fill="#F7F4E8" stroke="#80672B" stroke-width="2" rx="12" />
+<text x="4510" y="1214.3333333333333" text-anchor="middle" fill="#51431B" font-size="19" font-weight="600">Набор сведений о рейсах</text>
+<text x="4510" y="1236.3333333333333" text-anchor="middle" fill="#51431B" font-size="19" font-weight="600">[Исходные данные]</text>
+<text x="4510" y="1258.3333333333333" text-anchor="middle" fill="#51431B" font-size="19" font-weight="600">Расписание, цены и вместимость</text>
+<rect id="c4_3_reg" x="280" y="1478.5" width="420" height="103" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="490" y="1515" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Сервис регистрации</text>
+<text x="490" y="1536" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">[Внешняя программная система]</text>
+<text x="490" y="1557" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Запрос и результат</text>
+<rect id="c4_3_verify" x="1060" y="1478.5" width="420" height="103" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="1270" y="1515" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Сервис проверки документов</text>
+<text x="1270" y="1536" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">[Внешняя программная система]</text>
+<text x="1270" y="1557" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Документ и результат</text>
+<path id="c4_3_db" d="M1910,1486 a215,9 0 0 1 430,0 v88 a215,9 0 0 1 -430,0 Z M1910,1486 a215,9 0 0 0 430,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="2125" y="1529.1666666666667" text-anchor="middle" fill="#174F4B" font-size="20" font-weight="400">PostgreSQL</text>
+<text x="2125" y="1552.1666666666667" text-anchor="middle" fill="#174F4B" font-size="20" font-weight="400">[Контейнер · база данных]</text>
+<rect id="c4_3_psp" x="2680" y="1478.5" width="420" height="103" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="2890" y="1515" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Платёжный сервис</text>
+<text x="2890" y="1536" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">[Внешняя программная система]</text>
+<text x="2890" y="1557" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Оплата, доплата и возврат</text>
+<rect id="c4_3_mail" x="3450" y="1478.5" width="420" height="103" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="3660" y="1515" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Почтовая доставка</text>
+<text x="3660" y="1536" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">[Внешняя программная система]</text>
+<text x="3660" y="1557" text-anchor="middle" fill="#334361" font-size="18" font-weight="600">Квитанция и адрес</text>
+<text x="45" y="1712" text-anchor="start" fill="#182C40" font-size="18" font-weight="400">A1–A5 — коды функций IDEF0. IF-01–IF-07 — коды логических интерфейсов. Компоненты выполняются в одном серверном приложении.</text>
+<text x="45" y="1741" text-anchor="start" fill="#182C40" font-size="18" font-weight="400">Граница контейнера показана цветным полем. Набор сведений о рейсах — внешний вход для пакетной загрузки.</text>
+<text x="266" y="866" text-anchor="start" fill="#174F4B" font-size="19" font-weight="650">IDEF0 · A1</text>
+<text x="1046" y="866" text-anchor="start" fill="#174F4B" font-size="19" font-weight="650">IDEF0 · A2</text>
+<text x="1901" y="866" text-anchor="start" fill="#174F4B" font-size="19" font-weight="650">IDEF0 · A3, A5</text>
+<text x="2934" y="866" text-anchor="start" fill="#174F4B" font-size="19" font-weight="650">IDEF0 · A4</text>
+<text x="3704" y="866" text-anchor="start" fill="#174F4B" font-size="19" font-weight="650">IDEF0 · A5</text>
+</svg>

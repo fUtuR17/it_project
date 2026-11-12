@@ -1,0 +1,314 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4680" height="2740" viewBox="0 0 4680 2740" role="img" aria-label="Система бронирования авиабилетов · единая диаграмма Чена" font-family="Segoe UI, Arial, sans-serif"><title>Система бронирования авиабилетов · единая диаграмма Чена</title><defs><marker id="seq" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5.5 L0,11 Z" fill="#324D63" stroke="#324D63" stroke-width="1.4"/></marker><marker id="message" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#596985" stroke-width="1.4"/></marker><marker id="access" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#20746B" stroke-width="1.4"/></marker></defs><rect width="4680" height="2740" fill="#FFFFFF"/>
+<text x="38" y="49" text-anchor="start" fill="#182C40" font-size="34" font-weight="700">Система бронирования авиабилетов · единая диаграмма Чена</text>
+<text x="38" y="86" text-anchor="start" fill="#182C40" font-size="22" font-weight="400">Предметная область — бронирование прямых рейсов одной авиакомпании. Аккаунт оформляет бронь на одного пассажира с подтверждённым документом. Бронь связывает рейс, закрепления мест и багажа, оплату, билет и запрос на возврат.</text>
+<text x="38" y="122" text-anchor="start" fill="#182C40" font-size="19" font-weight="400">Прямоугольник — сущность. Ромб — отношение. Овал — атрибут. Подчёркивание — идентификатор. Кратность показывает число участий экземпляра сущности.</text>
+<polyline id="chen_L_att0" data-kind="assoc" points="360,415 180,316" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_L_att1" data-kind="assoc" points="360,415 360,266" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_L_att2" data-kind="assoc" points="360,415 540,316" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_A_att0" data-kind="assoc" points="1150,415 1025,311" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_A_att1" data-kind="assoc" points="1150,415 1275,311" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_P_att0" data-kind="assoc" points="1800,450 1731,310" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_P_att1" data-kind="assoc" points="1940,415 1840,271" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_P_att2" data-kind="assoc" points="1940,415 2050,271" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_P_att3" data-kind="assoc" points="2080,450 2115.75,310" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_D_att0" data-kind="assoc" points="2590,450 2531,295" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_D_att1" data-kind="assoc" points="2730,415 2650,266" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_D_att2" data-kind="assoc" points="2730,415 2830,266" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_D_att3" data-kind="assoc" points="2870,450 2938.5,295" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_V_att0" data-kind="assoc" points="3680,415 3450,321" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_V_att1" data-kind="assoc" points="3680,415 3620,266" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_V_att2" data-kind="assoc" points="3680,415 3845,271" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_V_att3" data-kind="assoc" points="3820,450 3900.75,310" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_H_att0" data-kind="assoc" points="380,1405 200,1236" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_H_att1" data-kind="assoc" points="380,1405 410,1186" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_H_att2" data-kind="assoc" points="380,1475 260,1654" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_F_att0" data-kind="assoc" points="1190,1405 1100,1151" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_F_att1" data-kind="assoc" points="1190,1405 1355,1216" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_F_att2" data-kind="assoc" points="1190,1475 1035,1699" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_F_att3" data-kind="assoc" points="1190,1475 1385,1684" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_F_att4" data-kind="assoc" points="1190,1405 920,1221" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_S_att0" data-kind="assoc" points="1190,2235 1010,2379" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_S_att1" data-kind="assoc" points="1190,2235 1320,2414" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_B_att0" data-kind="assoc" points="2180,1475 1940,1664" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_B_att1" data-kind="assoc" points="2180,1475 2105,1734" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_B_att2" data-kind="assoc" points="2180,1475 2390,1709" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_B_att3" data-kind="assoc" points="2320,1440 2496.75,1555" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_Z_att0" data-kind="assoc" points="2180,2235 2025,2379" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_Z_att1" data-kind="assoc" points="2180,2235 2265,2409" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_Z_att2" data-kind="assoc" points="2320,2200 2424.5,2400" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_G_att0" data-kind="assoc" points="3260,2235 3100,2379" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_G_att1" data-kind="assoc" points="3260,2235 3290,2444" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_G_att2" data-kind="assoc" points="3260,2235 3510,2399" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_G_att3" data-kind="assoc" points="3400,2200 3619,2350" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_M_att0" data-kind="assoc" points="3260,1405 3260,1231" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_M_att1" data-kind="assoc" points="3260,1405 3450,1261" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_M_att2" data-kind="assoc" points="3260,1475 3525,1704" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_M_att3" data-kind="assoc" points="3260,1475 3700,1804" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_T_att0" data-kind="assoc" points="2500,820 2340,751" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_T_att1" data-kind="assoc" points="2500,820 2550,721" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_T_att2" data-kind="assoc" points="2640,855 2680.75,735" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_Q_att0" data-kind="assoc" points="4090,1405 4090,1206" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_Q_att1" data-kind="assoc" points="4090,1405 4280,1276" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_Q_att2" data-kind="assoc" points="4090,1475 4270,1609" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_Q_att3" data-kind="assoc" points="4090,1475 4015,1674" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<polyline id="chen_R01_a" data-kind="assoc" points="500,450 654,450" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="577" y="441" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..1</text>
+<polyline id="chen_R01_b" data-kind="assoc" points="856,450 1010,450" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="933" y="441" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R02_a" data-kind="assoc" points="1290,450 1444,450" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1367" y="441" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R02_b" data-kind="assoc" points="1646,450 1800,450" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1723" y="441" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R03_a" data-kind="assoc" points="2080,450 2234,450" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2157" y="441" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R03_b" data-kind="assoc" points="2436,450 2590,450" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2513" y="441" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R04_a" data-kind="assoc" points="2870,450 3104,450" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2987" y="441" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R04_b" data-kind="assoc" points="3306,450 3540,450" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3423" y="441" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R05_a" data-kind="assoc" points="1150,485 1355,813.5" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1252.5" y="640.25" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R05_b" data-kind="assoc" points="1355,916.5 2180,1405" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1767.5" y="1151.75" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R06_a" data-kind="assoc" points="1940,485 1940,828.5" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1953" y="661.75" text-anchor="start" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R06_b" data-kind="assoc" points="1940,931.5 2180,1405" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2060" y="1159.25" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R07_a" data-kind="assoc" points="3680,485 3195,818.5" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3437.5" y="642.75" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R07_b" data-kind="assoc" points="3094,870 2320,1440" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2707" y="1146" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R08_a" data-kind="assoc" points="520,1440 684,1270" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="602" y="1346" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R08_b" data-kind="assoc" points="886,1270 1050,1440" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="968" y="1346" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R09_a" data-kind="assoc" points="520,1440 684,1605" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="602" y="1513.5" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R09_b" data-kind="assoc" points="886,1605 1050,1440" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="968" y="1513.5" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R10_a" data-kind="assoc" points="1190,1475 1190,1828.5" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1203" y="1656.75" text-anchor="start" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R10_b" data-kind="assoc" points="1190,1931.5 1190,2165" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1203" y="2053.25" text-anchor="start" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R11_a" data-kind="assoc" points="1330,1440 1589,1440" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1459.5" y="1431" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R11_b" data-kind="assoc" points="1791,1440 2040,1440" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1915.5" y="1431" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R12_a" data-kind="assoc" points="2180,1475 2180,1848.5" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2193" y="1666.75" text-anchor="start" fill="#667888" font-size="15" font-weight="600">1..N</text>
+<polyline id="chen_R12_b" data-kind="assoc" points="2180,1951.5 2180,2165" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2193" y="2063.25" text-anchor="start" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R13_a" data-kind="assoc" points="1330,2200 1579,2200" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1454.5" y="2191" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R13_b" data-kind="assoc" points="1781,2200 2040,2200" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1910.5" y="2191" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R14_a" data-kind="assoc" points="2180,1475 2840,1828.5" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2510" y="1642.75" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R14_b" data-kind="assoc" points="2840,1931.5 3260,2165" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3050" y="2039.25" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R15_a" data-kind="assoc" points="2320,1440 2609,1440" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2464.5" y="1431" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R15_b" data-kind="assoc" points="2811,1440 3120,1440" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2965.5" y="1431" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R16_a" data-kind="assoc" points="3260,2165 3260,1921.5" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3273" y="2048.25" text-anchor="start" fill="#667888" font-size="15" font-weight="600">0..1</text>
+<polyline id="chen_R16_b" data-kind="assoc" points="3260,1818.5 3260,1475" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3273" y="1651.75" text-anchor="start" fill="#667888" font-size="15" font-weight="600">0..1</text>
+<polyline id="chen_R17_a" data-kind="assoc" points="2180,1405 2360,1181.5" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2270" y="1284.25" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..1</text>
+<polyline id="chen_R17_b" data-kind="assoc" points="2360,1078.5 2500,890" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2430" y="975.25" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R18_a" data-kind="assoc" points="2320,1440 3539,1060" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2929.5" y="1241" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R18_b" data-kind="assoc" points="3640,1111.5 4090,1405" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3865" y="1249.25" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<polyline id="chen_R19_a" data-kind="assoc" points="3400,1440 3599,1440" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3499.5" y="1431" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">0..N</text>
+<polyline id="chen_R19_b" data-kind="assoc" points="3801,1440 3950,1440" fill="none" stroke="#667888" stroke-width="2" stroke-linejoin="round" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3875.5" y="1431" text-anchor="middle" fill="#667888" font-size="15" font-weight="600">1..1</text>
+<rect id="chen_L" x="220" y="415" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="360" y="456.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">L · Учётная запись для входа</text>
+<ellipse id="chen_L_attr0" cx="180" cy="290" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="180" y="295" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">L-ID</text>
+<ellipse id="chen_L_attr1" cx="360" cy="240" rx="102.75" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="360" y="245" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Идентификатор входа</text>
+<ellipse id="chen_L_attr2" cx="540" cy="290" rx="111.25" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="540" y="295" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Состояние регистрации</text>
+<rect id="chen_A" x="1010" y="415" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="1150" y="456.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">A · Аккаунт</text>
+<ellipse id="chen_A_attr0" cx="1025" cy="285" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="1025" y="290" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">A-ID</text>
+<ellipse id="chen_A_attr1" cx="1275" cy="285" rx="85.75" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="1275" y="290" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Момент создания</text>
+<rect id="chen_P" x="1800" y="415" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="1940" y="456.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">P · Пассажир</text>
+<ellipse id="chen_P_attr0" cx="1670" cy="310" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="1670" y="315" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">P-ID</text>
+<ellipse id="chen_P_attr1" cx="1840" cy="245" rx="115.5" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="1840" y="250" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Фамилия, имя, отчество</text>
+<ellipse id="chen_P_attr2" cx="2050" cy="245" rx="77.25" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="2050" y="250" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Дата рождения</text>
+<ellipse id="chen_P_attr3" cx="2210" cy="310" rx="94.25" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="2210" y="315" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Признак владельца</text>
+<rect id="chen_D" x="2590" y="415" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="2730" y="456.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">D · Документ пассажира</text>
+<ellipse id="chen_D_attr0" cx="2470" cy="295" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="2470" y="300" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">D-ID</text>
+<ellipse id="chen_D_attr1" cx="2650" cy="240" rx="77.25" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="2650" y="245" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Вид документа</text>
+<ellipse id="chen_D_attr2" cx="2830" cy="240" rx="85.75" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="2830" y="245" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Номер документа</text>
+<ellipse id="chen_D_attr3" cx="3020" cy="295" rx="81.5" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="3020" y="300" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Ссылка на файл</text>
+<rect id="chen_V" x="3540" y="415" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="3680" y="456.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">V · Проверка документа</text>
+<ellipse id="chen_V_attr0" cx="3450" cy="295" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="3450" y="300" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">V-ID</text>
+<ellipse id="chen_V_attr1" cx="3620" cy="240" rx="111.25" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="3620" y="245" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Внешний идентификатор</text>
+<ellipse id="chen_V_attr2" cx="3845" cy="245" rx="98.5" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="3845" y="250" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Результат проверки</text>
+<ellipse id="chen_V_attr3" cx="3995" cy="310" rx="94.25" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="3995" y="315" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Момент результата</text>
+<rect id="chen_H" x="240" y="1405" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="380" y="1446.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">H · Аэропорт</text>
+<ellipse id="chen_H_attr0" cx="200" cy="1210" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="200" y="1215" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">H-ID</text>
+<ellipse id="chen_H_attr1" cx="410" cy="1160" rx="77.25" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="410" y="1165" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Код аэропорта</text>
+<ellipse id="chen_H_attr2" cx="260" cy="1680" rx="73" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="260" y="1685" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Наименование</text>
+<rect id="chen_F" x="1050" y="1405" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="1190" y="1446.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">F · Рейс</text>
+<ellipse id="chen_F_attr0" cx="1100" cy="1125" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="1100" y="1130" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">F-ID</text>
+<ellipse id="chen_F_attr1" cx="1355" cy="1190" rx="98.5" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="1355" y="1195" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Номер и расписание</text>
+<ellipse id="chen_F_attr2" cx="1035" cy="1725" rx="124" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="1035" y="1730" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Пассажирская вместимость</text>
+<ellipse id="chen_F_attr3" cx="1385" cy="1710" rx="107" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="1385" y="1715" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Багажная вместимость</text>
+<ellipse id="chen_F_attr4" cx="920" cy="1195" rx="77.25" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="920" y="1200" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Цены и валюта</text>
+<rect id="chen_S" x="1050" y="2165" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="1190" y="2206.6666666666665" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">S · Место на рейсе</text>
+<ellipse id="chen_S_attr0" cx="1010" cy="2405" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="1010" y="2410" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">S-ID</text>
+<ellipse id="chen_S_attr1" cx="1320" cy="2440" rx="94.25" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="1320" y="2445" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Обозначение места</text>
+<rect id="chen_B" x="2040" y="1405" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="2180" y="1446.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">B · Бронирование</text>
+<ellipse id="chen_B_attr0" cx="1940" cy="1690" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="1940" y="1695" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">B-ID</text>
+<ellipse id="chen_B_attr1" cx="2105" cy="1760" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="2105" y="1765" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Состояние</text>
+<ellipse id="chen_B_attr2" cx="2390" cy="1735" rx="98.5" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="2390" y="1740" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Стоимость и валюта</text>
+<ellipse id="chen_B_attr3" cx="2625" cy="1555" rx="128.25" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="2625" y="1560" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Условия отмены и возврата</text>
+<rect id="chen_Z" x="2040" y="2165" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="2180" y="2206.6666666666665" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">Z · Закрепление места</text>
+<ellipse id="chen_Z_attr0" cx="2025" cy="2405" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="2025" y="2410" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Z-ID</text>
+<ellipse id="chen_Z_attr1" cx="2265" cy="2435" rx="141" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="2265" y="2431" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Моменты закрепления и</text>
+<text x="2265" y="2449" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">освобождения</text>
+<ellipse id="chen_Z_attr2" cx="2540" cy="2400" rx="115.5" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="2540" y="2405" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Основание освобождения</text>
+<rect id="chen_G" x="3120" y="2165" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="3260" y="2206.6666666666665" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">G · Закрепление мест багажа</text>
+<ellipse id="chen_G_attr0" cx="3100" cy="2405" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="3100" y="2410" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">G-ID</text>
+<ellipse id="chen_G_attr1" cx="3290" cy="2470" rx="115.5" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="3290" y="2475" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Количество мест багажа</text>
+<ellipse id="chen_G_attr2" cx="3510" cy="2425" rx="85.75" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="3510" y="2430" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Вид закрепления</text>
+<ellipse id="chen_G_attr3" cx="3680" cy="2350" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="3680" y="2355" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Состояние</text>
+<rect id="chen_M" x="3120" y="1405" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="3260" y="1446.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">M · Платёжная попытка</text>
+<ellipse id="chen_M_attr0" cx="3260" cy="1205" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="3260" y="1210" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">M-ID</text>
+<ellipse id="chen_M_attr1" cx="3450" cy="1235" rx="111.25" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="3450" y="1240" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Внешний идентификатор</text>
+<ellipse id="chen_M_attr2" cx="3525" cy="1730" rx="81.5" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="3525" y="1735" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Сумма и валюта</text>
+<ellipse id="chen_M_attr3" cx="3700" cy="1830" rx="115.5" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="3700" y="1835" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Состояние и назначение</text>
+<rect id="chen_T" x="2360" y="820" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="2500" y="861.6666666666666" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">T · Билет</text>
+<ellipse id="chen_T_attr0" cx="2340" cy="725" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="2340" y="730" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">T-ID</text>
+<ellipse id="chen_T_attr1" cx="2550" cy="695" rx="73" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="2550" y="700" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Номер билета</text>
+<ellipse id="chen_T_attr2" cx="2775" cy="735" rx="94.25" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="2775" y="740" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Момент оформления</text>
+<rect id="chen_Q" x="3950" y="1405" width="280" height="70" fill="#EAF3FA" stroke="#234E75" stroke-width="2" />
+<text x="4090" y="1446.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">Q · Запрос на возврат</text>
+<ellipse id="chen_Q_attr0" cx="4090" cy="1180" rx="61" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text text-decoration="underline" x="4090" y="1185" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Q-ID</text>
+<ellipse id="chen_Q_attr1" cx="4280" cy="1250" rx="98.5" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="4280" y="1255" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Состояние возврата</text>
+<ellipse id="chen_Q_attr2" cx="4270" cy="1635" rx="81.5" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="4270" y="1640" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Сумма возврата</text>
+<ellipse id="chen_Q_attr3" cx="4015" cy="1700" rx="77.25" ry="26" fill="#FFFFFF" stroke="#59708A" stroke-width="2"/>
+<text x="4015" y="1705" text-anchor="middle" fill="#182C40" font-size="15" font-weight="600">Момент подачи</text>
+<polygon id="chen_R01" points="755,398.5 856,450 755,501.5 654,450" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="755" y="445.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R01</text>
+<text x="755" y="464.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">связана с</text>
+<polygon id="chen_R02" points="1545,398.5 1646,450 1545,501.5 1444,450" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="1545" y="445.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R02</text>
+<text x="1545" y="464.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">ведёт список</text>
+<polygon id="chen_R03" points="2335,398.5 2436,450 2335,501.5 2234,450" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="2335" y="445.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R03</text>
+<text x="2335" y="464.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">предъявляет</text>
+<polygon id="chen_R04" points="3205,398.5 3306,450 3205,501.5 3104,450" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="3205" y="445.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R04</text>
+<text x="3205" y="464.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">проверяется</text>
+<polygon id="chen_R05" points="1355,813.5 1456,865 1355,916.5 1254,865" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="1355" y="860.8333333333334" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R05</text>
+<text x="1355" y="879.8333333333334" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">оформляет</text>
+<polygon id="chen_R06" points="1940,828.5 2041,880 1940,931.5 1839,880" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="1940" y="875.8333333333334" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R06</text>
+<text x="1940" y="894.8333333333334" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">указан в</text>
+<polygon id="chen_R07" points="3195,818.5 3296,870 3195,921.5 3094,870" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="3195" y="865.8333333333334" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R07</text>
+<text x="3195" y="884.8333333333334" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">подтверждает допуск</text>
+<polygon id="chen_R08" points="785,1218.5 886,1270 785,1321.5 684,1270" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="785" y="1265.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R08</text>
+<text x="785" y="1284.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">отправляется из</text>
+<polygon id="chen_R09" points="785,1553.5 886,1605 785,1656.5 684,1605" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="785" y="1600.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R09</text>
+<text x="785" y="1619.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">прибывает в</text>
+<polygon id="chen_R10" points="1190,1828.5 1291,1880 1190,1931.5 1089,1880" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="1190" y="1875.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R10</text>
+<text x="1190" y="1894.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">содержит</text>
+<polygon id="chen_R11" points="1690,1388.5 1791,1440 1690,1491.5 1589,1440" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="1690" y="1435.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R11</text>
+<text x="1690" y="1454.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">выбран для</text>
+<polygon id="chen_R12" points="2180,1848.5 2281,1900 2180,1951.5 2079,1900" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="2180" y="1895.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R12</text>
+<text x="2180" y="1914.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">имеет закрепление</text>
+<polygon id="chen_R13" points="1680,2148.5 1781,2200 1680,2251.5 1579,2200" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="1680" y="2195.8333333333335" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R13</text>
+<text x="1680" y="2214.8333333333335" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">указано в</text>
+<polygon id="chen_R14" points="2840,1828.5 2941,1880 2840,1931.5 2739,1880" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="2840" y="1875.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R14</text>
+<text x="2840" y="1894.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">учитывает багаж</text>
+<polygon id="chen_R15" points="2710,1388.5 2811,1440 2710,1491.5 2609,1440" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="2710" y="1435.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R15</text>
+<text x="2710" y="1454.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">оплачивается через</text>
+<polygon id="chen_R16" points="3260,1818.5 3361,1870 3260,1921.5 3159,1870" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="3260" y="1865.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R16</text>
+<text x="3260" y="1884.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">связано с оплатой</text>
+<polygon id="chen_R17" points="2360,1078.5 2461,1130 2360,1181.5 2259,1130" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="2360" y="1125.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R17</text>
+<text x="2360" y="1144.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">подтверждается</text>
+<polygon id="chen_R18" points="3640,1008.5 3741,1060 3640,1111.5 3539,1060" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="3640" y="1055.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R18</text>
+<text x="3640" y="1074.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">служит основанием</text>
+<polygon id="chen_R19" points="3700,1388.5 3801,1440 3700,1491.5 3599,1440" fill="#FFF1CC" stroke="#8A661D" stroke-width="2"/>
+<text x="3700" y="1435.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">R19</text>
+<text x="3700" y="1454.8333333333333" text-anchor="middle" fill="#563C12" font-size="16" font-weight="600">относится к оплате</text>
+</svg>

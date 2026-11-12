@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3020" height="888" viewBox="0 0 3020 888" role="img" aria-label="DFD · Контекст системы" font-family="Segoe UI, Arial, sans-serif"><title>DFD · Контекст системы</title><defs><marker id="seq" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5.5 L0,11 Z" fill="#324D63" stroke="#324D63" stroke-width="1.4"/></marker><marker id="message" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#596985" stroke-width="1.4"/></marker><marker id="access" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#20746B" stroke-width="1.4"/></marker></defs><rect width="3020" height="888" fill="#FFFFFF"/>
+<text x="42" y="58" text-anchor="start" fill="#182C40" font-size="36" font-weight="700">DFD · Контекст системы</text>
+<text x="43" y="101" text-anchor="start" fill="#182C40" font-size="24" font-weight="400">Граница системы и обмены с внешними участниками</text>
+<text x="44" y="138" text-anchor="start" fill="#182C40" font-size="20" font-weight="400">E — внешний участник. D — логическое хранилище. Одинаковые коды обозначают одного участника или одно хранилище.</text>
+<text x="44" y="168" text-anchor="start" fill="#182C40" font-size="19" font-weight="400">Наконечники показывают направления передачи данных. На двусторонней связи подписи с ← и → читаются по указанным направлениям.</text>
+<rect id="dfds0_band0" x="32" y="185" width="2956" height="615" fill="#FBFCFD" stroke="#BCCAD8" stroke-width="2" rx="12" />
+<polyline id="dfds0_sys_owner_edge" data-kind="seq" points="595,442 1275,509.5" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FBFCFD" stroke-width="4" x="937.5" y="443.75" text-anchor="middle" fill="#243F54" font-size="20" font-weight="600">→ В систему · сведения и команды</text>
+<text paint-order="stroke" stroke="#FBFCFD" stroke-width="4" x="937.5" y="465.75" text-anchor="middle" fill="#243F54" font-size="20" font-weight="600">← Владельцу · данные, квитанции, статусы</text>
+<polyline id="dfds0_sys_source_edge" data-kind="seq" points="595,577 1275,509.5" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FBFCFD" stroke-width="4" x="937.5" y="533.25" text-anchor="middle" fill="#243F54" font-size="20" font-weight="600">Расписание, цены, места и вместимость</text>
+<polyline id="dfds0_sys_reg_edge" data-kind="seq" points="1745,509.5 2425,307" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FBFCFD" stroke-width="4" x="2082.5" y="376.25" text-anchor="middle" fill="#243F54" font-size="20" font-weight="600">→ Запрос регистрации</text>
+<text paint-order="stroke" stroke="#FBFCFD" stroke-width="4" x="2082.5" y="398.25" text-anchor="middle" fill="#243F54" font-size="20" font-weight="600">← подтверждение</text>
+<polyline id="dfds0_sys_verify_edge" data-kind="seq" points="1745,509.5 2425,442" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FBFCFD" stroke-width="4" x="2082.5" y="443.75" text-anchor="middle" fill="#243F54" font-size="20" font-weight="600">→ Документ и реквизиты</text>
+<text paint-order="stroke" stroke="#FBFCFD" stroke-width="4" x="2082.5" y="465.75" text-anchor="middle" fill="#243F54" font-size="20" font-weight="600">← итог проверки</text>
+<polyline id="dfds0_sys_pay_edge" data-kind="seq" points="1745,509.5 2425,577" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FBFCFD" stroke-width="4" x="2082.5" y="511.25" text-anchor="middle" fill="#243F54" font-size="20" font-weight="600">→ Запросы оплаты, доплаты и возврата</text>
+<text paint-order="stroke" stroke="#FBFCFD" stroke-width="4" x="2082.5" y="533.25" text-anchor="middle" fill="#243F54" font-size="20" font-weight="600">← Ссылки и результаты</text>
+<polyline id="dfds0_sys_mail_edge" data-kind="seq" points="1745,509.5 2425,712" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FBFCFD" stroke-width="4" x="2082.5" y="578.75" text-anchor="middle" fill="#243F54" font-size="20" font-weight="600">→ Квитанция и адрес</text>
+<text paint-order="stroke" stroke="#FBFCFD" stroke-width="4" x="2082.5" y="600.75" text-anchor="middle" fill="#243F54" font-size="20" font-weight="600">← приём к отправке</text>
+<rect id="dfds0_sys" x="1275" y="453.5" width="470" height="112" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1510" y="503.6666666666667" text-anchor="middle" fill="#182C40" font-size="26" font-weight="600">0 · Система бронирования</text>
+<text x="1510" y="532.6666666666666" text-anchor="middle" fill="#182C40" font-size="26" font-weight="600">авиабилетов</text>
+<rect id="dfds0_sys_owner" x="135" y="399" width="460" height="86" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="365" y="449.3333333333333" text-anchor="middle" fill="#334361" font-size="22" font-weight="600">E1 · Владелец аккаунта</text>
+<rect id="dfds0_sys_source" x="135" y="534" width="460" height="86" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="365" y="584.3333333333334" text-anchor="middle" fill="#334361" font-size="22" font-weight="600">E5 · Источник сведений о рейсах</text>
+<rect id="dfds0_sys_reg" x="2425" y="264" width="460" height="86" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="2655" y="314.3333333333333" text-anchor="middle" fill="#334361" font-size="22" font-weight="600">E2 · Сервис регистрации</text>
+<rect id="dfds0_sys_verify" x="2425" y="399" width="460" height="86" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="2655" y="449.3333333333333" text-anchor="middle" fill="#334361" font-size="22" font-weight="600">E3 · Сервис проверки документов</text>
+<rect id="dfds0_sys_pay" x="2425" y="534" width="460" height="86" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="2655" y="584.3333333333334" text-anchor="middle" fill="#334361" font-size="22" font-weight="600">E4 · Внешний платёжный сервис</text>
+<rect id="dfds0_sys_mail" x="2425" y="669" width="460" height="86" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="2655" y="719.3333333333334" text-anchor="middle" fill="#334361" font-size="22" font-weight="600">E6 · Почтовая доставка</text>
+<text id="idef-ref-dfds0_sys" x="1287" y="599.5" fill="#174F4B" font-size="21" font-weight="600">IDEF0 · A0</text>
+</svg>

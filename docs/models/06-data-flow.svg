@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4680" height="3440" viewBox="0 0 4680 3440" role="img" aria-label="Диаграмма потоков данных · контекст и две декомпозиции" font-family="Segoe UI, Arial, sans-serif"><title>Диаграмма потоков данных · контекст и две декомпозиции</title><defs><marker id="seq" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5.5 L0,11 Z" fill="#324D63" stroke="#324D63" stroke-width="1.4"/></marker><marker id="message" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#596985" stroke-width="1.4"/></marker><marker id="access" markerWidth="11" markerHeight="11" refX="9" refY="5.5" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M1,1 L10,5.5 L1,10" fill="none" stroke="#20746B" stroke-width="1.4"/></marker></defs><rect width="4680" height="3440" fill="#FFFFFF"/>
+<text x="40" y="55" text-anchor="start" fill="#182C40" font-size="34" font-weight="700">Диаграмма потоков данных · контекст и две декомпозиции</text>
+<text x="40" y="95" text-anchor="start" fill="#182C40" font-size="20" font-weight="400">Концептуальная модель обмена данными между владельцем аккаунта, приложением и внешними источниками.</text>
+<text x="40" y="130" text-anchor="start" fill="#182C40" font-size="19" font-weight="400">E — внешний участник. D — логическое хранилище. Пронумерованные блоки — процессы. На парной связи подпись через косую черту перечисляет прямой и обратный потоки.</text>
+<rect id="dfd0_bg" x="35" y="162" width="4610" height="785" fill="#FBFCFD" stroke="#BCCAD8" stroke-width="2" rx="10" />
+<text x="62" y="208" text-anchor="start" fill="#182C40" font-size="25" font-weight="700">Контекст · процесс 0 и внешние участники</text>
+<text x="62" y="241" text-anchor="start" fill="#182C40" font-size="19" font-weight="400">Граница охватывает операции бронирования, оплаты и обслуживания поездки.</text>
+<polyline id="dfd0_flow0" data-kind="seq" points="710,490 2065,522" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1387.5" y="497" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">В систему: сведения и команды · Владельцу: данные, квитанции и статусы</text>
+<polyline id="dfd0_flow1" data-kind="seq" points="740,730 2300,587" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1520" y="649.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Расписание, цены, места и вместимость</text>
+<polyline id="dfd0_flow2" data-kind="seq" points="2535,522 3805,300" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3170" y="402" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Запрос регистрации / подтверждение</text>
+<polyline id="dfd0_flow3" data-kind="seq" points="2535,522 3805,480" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3170" y="492" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Документ и реквизиты / итог проверки</text>
+<polyline id="dfd0_flow4" data-kind="seq" points="2535,522 3805,660" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3170" y="582" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Оплата, доплата, возврат / ссылки и результаты</text>
+<polyline id="dfd0_flow5" data-kind="seq" points="2535,522 3805,835" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3170" y="669.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Квитанция и адрес / приём к отправке</text>
+<rect id="dfd0_owner" x="310" y="449" width="400" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="510" y="496.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E1 · Владелец аккаунта</text>
+<rect id="dfd0_source" x="280" y="689" width="460" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="510" y="736.6666666666666" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E5 · Источник сведений о рейсах</text>
+<rect id="dfd0_sys" x="2065" y="457" width="470" height="130" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2300" y="528.6666666666666" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">0 · Система бронирования авиабилетов</text>
+<rect id="dfd0_reg" x="3805" y="259" width="470" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="4040" y="306.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E2 · Сервис регистрации</text>
+<rect id="dfd0_verify" x="3805" y="439" width="470" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="4040" y="486.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E3 · Сервис проверки документов</text>
+<rect id="dfd0_pay" x="3805" y="619" width="470" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="4040" y="666.6666666666666" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E4 · Внешний платёжный сервис</text>
+<rect id="dfd0_mail" x="3805" y="794" width="470" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="4040" y="841.6666666666666" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E6 · Почтовая доставка</text>
+<rect id="dfd1_bg" x="35" y="990" width="4610" height="1190" fill="#FBFCFD" stroke="#BCCAD8" stroke-width="2" rx="10" />
+<text x="62" y="1036" text-anchor="start" fill="#182C40" font-size="25" font-weight="700">Первая декомпозиция · процессы 1–4 и логические хранилища</text>
+<text x="62" y="1069" text-anchor="start" fill="#182C40" font-size="19" font-weight="400">Повтор кода E1 или E4 обозначает одного и того же участника. Внешние потоки сохранены на уровне контекста.</text>
+<polyline id="dfd1_flow0" data-kind="seq" points="520,1180 1140,1180" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="830" y="1171" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Сведения доступа / результат доступа и проверки</text>
+<polyline id="dfd1_flow1" data-kind="seq" points="520,1450 1140,1450" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="830" y="1441" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Выбор и параметры брони / рейсы, бронь, билет</text>
+<polyline id="dfd1_flow2" data-kind="seq" points="520,1720 1140,1720" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="830" y="1711" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Запросы обслуживания / квитанция и результаты</text>
+<polyline id="dfd1_flow3" data-kind="seq" points="520,1990 1140,1990" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="830" y="1981" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Отмена и возврат / статусы</text>
+<polyline id="dfd1_flow4" data-kind="seq" points="532.5,1545 1340,1491" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="936.25" y="1509" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Сведения о рейсах</text>
+<polyline id="dfd1_flow5" data-kind="seq" points="1540,1180 2540,1170" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2040" y="1166" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Данные доступа, пассажиров и документов</text>
+<polyline id="dfd1_flow6" data-kind="seq" points="1340,1139 4000,1095" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2670" y="1108" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Запрос / результат регистрации</text>
+<polyline id="dfd1_flow7" data-kind="seq" points="1340,1221 3985,1245" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2662.5" y="1224" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Документ / результат проверки</text>
+<polyline id="dfd1_flow8" data-kind="seq" points="1340,1409 1340,1335 4200,1335 4200,1364" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2770" y="1325" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Основная оплата / ссылка и результат</text>
+<polyline id="dfd1_flow9" data-kind="seq" points="1340,1679 3985,1585" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2662.5" y="1623" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Доплата / ссылка и результат</text>
+<polyline id="dfd1_flow10" data-kind="seq" points="1340,1761 1340,1855 4200,1855 4200,1821" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2770" y="1845" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Квитанция, адрес / приём к отправке</text>
+<polyline id="dfd1_flow11" data-kind="seq" points="1340,2031 1340,2100 4200,2100 4200,2031" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2770" y="2090" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Запрос / результаты возврата</text>
+<polyline id="dfd1_flow12" data-kind="seq" points="2540,1170 1340,1409" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1940" y="1280.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Пассажир и проверка</text>
+<polyline id="dfd1_flow13" data-kind="seq" points="1540,1450 2540,1425" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2040" y="1428.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Загрузка и чтение каталога</text>
+<polyline id="dfd1_flow14" data-kind="seq" points="1540,1450 2810,1689" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2175" y="1560.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Бронь и закрепления</text>
+<polyline id="dfd1_flow15" data-kind="seq" points="1340,1491 2810,1959" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2075" y="1716" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Платёж и билет</text>
+<polyline id="dfd1_flow16" data-kind="seq" points="2810,1211 1140,1720" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1975" y="1456.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Данные пассажира для квитанции</text>
+<polyline id="dfd1_flow17" data-kind="seq" points="2810,1466 1340,1679" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2075" y="1563.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Рейс, цены, места</text>
+<polyline id="dfd1_flow18" data-kind="seq" points="1540,1720 2540,1730" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2040" y="1716" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Бронь, места, багаж</text>
+<polyline id="dfd1_flow19" data-kind="seq" points="1540,1720 2810,1959" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2175" y="1830.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Доплата и сведения о билете</text>
+<polyline id="dfd1_flow20" data-kind="seq" points="1540,1990 2810,1771" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2175" y="1871.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Отменённая бронь и закрепления</text>
+<polyline id="dfd1_flow21" data-kind="seq" points="1540,1990 2540,2000" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2040" y="1986" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Платёж и состояние возврата</text>
+<rect id="dfd1_own0" x="160" y="1139" width="360" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="340" y="1186.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E1 · Владелец аккаунта</text>
+<rect id="dfd1_own1" x="160" y="1409" width="360" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="340" y="1456.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E1 · Владелец аккаунта</text>
+<rect id="dfd1_own2" x="160" y="1679" width="360" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="340" y="1726.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E1 · Владелец аккаунта</text>
+<rect id="dfd1_own3" x="160" y="1949" width="360" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="340" y="1996.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E1 · Владелец аккаунта</text>
+<rect id="dfd1_catalog" x="157.5" y="1511" width="375" height="68" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="345" y="1551.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E5 · Источник сведений о рейсах</text>
+<rect id="dfd1_a" x="1140" y="1139" width="400" height="82" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1340" y="1175.1666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">1 · Обеспечить доступ и проверку</text>
+<text x="1340" y="1198.1666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">документов</text>
+<rect id="dfd1_b" x="1140" y="1409" width="400" height="82" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1340" y="1456.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">2 · Оформить бронирование и билет</text>
+<rect id="dfd1_c" x="1140" y="1679" width="400" height="82" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1340" y="1726.6666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">3 · Обслужить оформленную поездку</text>
+<rect id="dfd1_d" x="1140" y="1949" width="400" height="82" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1340" y="1985.1666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">4 · Отменить бронь и учесть</text>
+<text x="1340" y="2008.1666666666667" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">возврат</text>
+<path id="dfd1_d1" d="M2540,1138 a270,9 0 0 1 540,0 v64 a270,9 0 0 1 -540,0 Z M2540,1138 a270,9 0 0 0 540,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="2810" y="1169.1666666666667" text-anchor="middle" fill="#174F4B" font-size="20" font-weight="400">D1 · Аккаунты, пассажиры, документы и</text>
+<text x="2810" y="1192.1666666666667" text-anchor="middle" fill="#174F4B" font-size="20" font-weight="400">проверки</text>
+<path id="dfd1_d2" d="M2540,1393 a270,9 0 0 1 540,0 v64 a270,9 0 0 1 -540,0 Z M2540,1393 a270,9 0 0 0 540,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="2810" y="1435.6666666666667" text-anchor="middle" fill="#174F4B" font-size="20" font-weight="400">D2 · Каталог рейсов, цены и вместимость</text>
+<path id="dfd1_d3" d="M2540,1698 a270,9 0 0 1 540,0 v64 a270,9 0 0 1 -540,0 Z M2540,1698 a270,9 0 0 0 540,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="2810" y="1740.6666666666667" text-anchor="middle" fill="#174F4B" font-size="20" font-weight="400">D3 · Бронирования и закрепления</text>
+<path id="dfd1_d4" d="M2540,1968 a270,9 0 0 1 540,0 v64 a270,9 0 0 1 -540,0 Z M2540,1968 a270,9 0 0 0 540,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="2810" y="2010.6666666666667" text-anchor="middle" fill="#174F4B" font-size="20" font-weight="400">D4 · Платежи, билеты и возвраты</text>
+<rect id="dfd1_reg" x="4000" y="1054" width="400" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="4200" y="1101.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E2 · Сервис регистрации</text>
+<rect id="dfd1_verify" x="3985" y="1204" width="430" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="4200" y="1251.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E3 · Сервис проверки документов</text>
+<rect id="dfd1_payb" x="3985" y="1364" width="430" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="4200" y="1411.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E4 · Внешний платёжный сервис</text>
+<rect id="dfd1_payc" x="3985" y="1544" width="430" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="4200" y="1591.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E4 · Внешний платёжный сервис</text>
+<rect id="dfd1_mail" x="4000" y="1739" width="400" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="4200" y="1786.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E6 · Почтовая доставка</text>
+<rect id="dfd1_payd" x="3985" y="1949" width="430" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="4200" y="1996.6666666666667" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E4 · Внешний платёжный сервис</text>
+<rect id="dfd2_bg" x="35" y="2225" width="4610" height="1120" fill="#FBFCFD" stroke="#BCCAD8" stroke-width="2" rx="10" />
+<text x="62" y="2271" text-anchor="start" fill="#182C40" font-size="25" font-weight="700">Вторая декомпозиция · процесс 2 «Оформить бронирование и билет»</text>
+<text x="62" y="2304" text-anchor="start" fill="#182C40" font-size="19" font-weight="400">Показаны источники и преобразования данных для P02. Оформление билета опирается на подтверждённую основную оплату.</text>
+<polyline id="dfd2_flow0" data-kind="seq" points="580,2580 1055,2580" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="817.5" y="2571" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Параметры поиска / рейсы и список пассажиров</text>
+<polyline id="dfd2_flow1" data-kind="seq" points="615,2800 1280,2621" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="947.5" y="2701.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Исходные сведения о рейсах</text>
+<polyline id="dfd2_flow2" data-kind="seq" points="1280,2621 640,3049" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="960" y="2826" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Обновление и чтение каталога</text>
+<polyline id="dfd2_flow3" data-kind="seq" points="1350,3049 1280,2621" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1315" y="2826" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Список пассажиров</text>
+<polyline id="dfd2_flow4" data-kind="seq" points="1625,3090 2430,2621" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2027.5" y="2846.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Пассажир и проверка документа</text>
+<polyline id="dfd2_flow5" data-kind="seq" points="880,3090 2430,2621" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1780" y="2935" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Рейс, вместимость и цены</text>
+<polyline id="dfd2_flow6" data-kind="seq" points="2230,3090 1280,2621" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1725" y="2820" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Текущие закрепления</text>
+<polyline id="dfd2_flow7" data-kind="seq" points="1505,2580 2195,2580" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1850" y="2571" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Выбранный рейс и пассажир</text>
+<polyline id="dfd2_flow8" data-kind="seq" points="2430,2621 2470,3049" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2450" y="2826" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Бронь и закрепления</text>
+<polyline id="dfd2_flow9" data-kind="seq" points="2665,2580 3285,2580" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="2975" y="2571" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Идентификатор брони, сумма и валюта</text>
+<polyline id="dfd2_flow10" data-kind="seq" points="3735,2580 4280,2784" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="4007.5" y="2673" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Основная оплата / ссылка и результат</text>
+<polyline id="dfd2_flow11" data-kind="seq" points="3510,2621 3550,3049" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3530" y="2826" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Попытка, результат и билет</text>
+<polyline id="dfd2_flow12" data-kind="seq" points="3510,2621 2710,3090" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-start="url(#seq)" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="3110" y="2846.5" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Подтверждение либо прекращение брони</text>
+<polyline id="dfd2_flow13" data-kind="seq" points="3510,2539 3510,2355 380,2355 380,2539" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1945" y="2345" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Статус и сведения о билете</text>
+<polyline id="dfd2_flow14" data-kind="seq" points="380,2539 380,2425 2430,2425 2430,2539" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1405" y="2415" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Подтверждение, место и багаж</text>
+<polyline id="dfd2_flow15" data-kind="seq" points="2430,2539 2430,2480 380,2480 380,2539" fill="none" stroke="#324D63" stroke-width="2.8" stroke-linejoin="round" marker-end="url(#seq)" />
+<text paint-order="stroke" stroke="#FFFFFF" stroke-width="4" x="1405" y="2470" text-anchor="middle" fill="#324D63" font-size="15" font-weight="600">Бронь или основание отказа</text>
+<rect id="dfd2_own" x="180" y="2539" width="400" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="380" y="2586.6666666666665" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E1 · Владелец аккаунта</text>
+<rect id="dfd2_seed" x="145" y="2759" width="470" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="380" y="2806.6666666666665" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E5 · Источник сведений о рейсах</text>
+<rect id="dfd2_list" x="1055" y="2539" width="450" height="82" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="1280" y="2586.6666666666665" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">2.1 · Предоставить рейсы и пассажиров</text>
+<rect id="dfd2_book" x="2195" y="2539" width="470" height="82" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="2430" y="2575.1666666666665" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">2.2 · Проверить допуск и закрепить</text>
+<text x="2430" y="2598.1666666666665" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">места</text>
+<rect id="dfd2_pay" x="3285" y="2539" width="450" height="82" fill="#EAF3FA" stroke="#234E75" stroke-width="2" rx="12" />
+<text x="3510" y="2575.1666666666665" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">2.3 · Провести оплату и оформить</text>
+<text x="3510" y="2598.1666666666665" text-anchor="middle" fill="#182C40" font-size="20" font-weight="600">билет</text>
+<rect id="dfd2_psp" x="4055" y="2784" width="450" height="82" fill="#F0F0F7" stroke="#596985" stroke-width="2" rx="12" />
+<text x="4280" y="2831.6666666666665" text-anchor="middle" fill="#334361" font-size="20" font-weight="600">E4 · Внешний платёжный сервис</text>
+<path id="dfd2_d1" d="M1075,3058 a275,9 0 0 1 550,0 v64 a275,9 0 0 1 -550,0 Z M1075,3058 a275,9 0 0 0 550,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="1350" y="3089.1666666666665" text-anchor="middle" fill="#174F4B" font-size="20" font-weight="400">D1 · Аккаунты, пассажиры, документы и</text>
+<text x="1350" y="3112.1666666666665" text-anchor="middle" fill="#174F4B" font-size="20" font-weight="400">проверки</text>
+<path id="dfd2_d2" d="M400,3058 a240,9 0 0 1 480,0 v64 a240,9 0 0 1 -480,0 Z M400,3058 a240,9 0 0 0 480,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="640" y="3100.6666666666665" text-anchor="middle" fill="#174F4B" font-size="20" font-weight="400">D2 · Каталог рейсов, цены и вместимость</text>
+<path id="dfd2_d3" d="M2230,3058 a240,9 0 0 1 480,0 v64 a240,9 0 0 1 -480,0 Z M2230,3058 a240,9 0 0 0 480,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="2470" y="3100.6666666666665" text-anchor="middle" fill="#174F4B" font-size="20" font-weight="400">D3 · Бронирования и закрепления</text>
+<path id="dfd2_d4" d="M3310,3058 a240,9 0 0 1 480,0 v64 a240,9 0 0 1 -480,0 Z M3310,3058 a240,9 0 0 0 480,0" fill="#E6F4F1" stroke="#20746B" stroke-width="2"/>
+<text x="3550" y="3100.6666666666665" text-anchor="middle" fill="#174F4B" font-size="20" font-weight="400">D4 · Платежи, билеты и возвраты</text>
+</svg>
